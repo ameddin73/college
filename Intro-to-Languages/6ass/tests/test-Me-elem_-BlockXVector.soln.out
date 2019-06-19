@@ -1,0 +1,57 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing bxv01
+(elem bxv01 1) => 1
+(elem bxv01 2) => 2
+(elem bxv01 3) => 3
+(elem bxv01 4) => 4
+(elem bxv01 5) => 5
+(elem bxv01 6) => 6
+(elem bxv01 7) => 7
+(elem bxv01 8) => 8
+(elem bxv01 9) => 9
+(elem bxv01 10) => 10
+(elem bxv01 15) => 15
+(elem bxv01 16) => 16
+(elem bxv01 17) => 17
+(elem bxv01 18) => 18
+(elem bxv01 19) => 19
+(elem bxv01 20) => 20
+(elem bxv01 51) => 20
+(elem bxv01 52) => 21
+(elem bxv01 53) => 22
+(elem bxv01 54) => 23
+(elem bxv01 55) => 24
+Testing bxv02
+(elem bxv02 1) => 1
+(elem bxv02 2) => 4
+(elem bxv02 3) => 9
+(elem bxv02 4) => 16
+(elem bxv02 5) => 25
+(elem bxv02 6) => 5
+(elem bxv02 7) => 18
+(elem bxv02 8) => 2
+(elem bxv02 9) => 19
+(elem bxv02 10) => 7
+(elem bxv02 15) => 8
+(elem bxv02 16) => 8
+(elem bxv02 17) => 10
+(elem bxv02 18) => 14
+(elem bxv02 19) => 20
+(elem bxv02 20) => 28
+(elem bxv02 51) => 28
+(elem bxv02 52) => 7
+(elem bxv02 53) => 19
+(elem bxv02 54) => 2
+(elem bxv02 55) => 18

@@ -1,0 +1,2 @@
+flipApp : (forall ('b) ('b -> (forall ('a) (('b -> 'a) -> 'a))))
+type error: function of type (('a -> 'b) -> 'b) received arguments of types (('b -> 'b))

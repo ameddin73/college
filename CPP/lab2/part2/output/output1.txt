@@ -1,0 +1,41 @@
+$ sos 10
+$ vault
+DD: 0xE8035E3725DF4A19, value: 1
+DD: 0xD79E62976F604366, value: 1
+DD: 0xFDFD3A7C3E40F98B, value: 1
+DD: 0x6C6F1E45458246E8, value: 1
+DD: 0xA1ABD7F3042AE12F, value: 1
+DD: 0x28E837C5CB41DC3E, value: 1
+DD: 0x0A213217F032E8B9, value: 1
+DD: 0x98F56903CEE3FCEE, value: 1
+DD: 0x8AD330133B0725AC, value: 1
+DD: 0x0EA2062AFD5FE9EE, value: 1
+$ doubloon 0xFDFD3A7C3E40F98B
+DD: 0xFDFD3A7C3E40F98B, value: 1
+$ withdraw 0x6C6F1E45458246E8
+$ withdraw 0x0A213217F032E8B9
+$ withdraw 0xA1ABD7F3042AE12F
+$ wallet
+DD: 0x6C6F1E45458246E8, value: 1
+DD: 0x0A213217F032E8B9, value: 1
+DD: 0xA1ABD7F3042AE12F, value: 1
+$ gun 0x8AD330133B0725AC
+$ ritchie 5
+$ deposit
+$ fedora 1
+$ deposit
+$ sos 1
+$ vault
+DD: 0x0A213217F032E8B9, value: 1
+DD: 0x6C53702C050D3513, value: 1
+DD: 0xE8035E3725DF4A19, value: 5
+DD: 0xD79E62976F604366, value: 5
+DD: 0xFDFD3A7C3E40F98B, value: 5
+DD: 0x6C6F1E45458246E8, value: 0
+DD: 0x28E837C5CB41DC3E, value: 5
+DD: 0x98F56903CEE3FCEE, value: 5
+DD: 0x0EA2062AFD5FE9EE, value: 5
+$ quit
+returning doubloons in wallet to bank!
+doubloons in vault: 10
+total worth: 33

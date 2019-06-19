@@ -1,0 +1,94 @@
+[clause].
+
+re_match_advanced2_test01(L) :- between(0,7,N), ofLength(N,L), re_match(alt(char(a),star(char(b))),L).
+re_match_advanced2_test02(L) :- between(0,7,N), ofLength(N,L), re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),L).
+re_match_advanced2_test03(L) :- between(0,4,N), ofLength(N,L), re_match(star(alt(char(a),char(b))),L).
+re_match_advanced2_test04(L) :- between(0,4,N), ofLength(N,L), re_match(seq(star(char(a)),star(char(b))),L).
+re_match_advanced2_test05(L) :- between(0,8,N), ofLength(N,L), re_match(star(seq(char(a),char(b))),L).
+
+[query].
+
+check_solutions(re_match_advanced2_test01(L),
+                [
+                    [L = [a]],
+                    [L = [b, b, b, b, b, b, b]],
+                    [L = [b, b, b, b, b, b]],
+                    [L = [b, b, b, b, b]],
+                    [L = [b, b, b, b]],
+                    [L = [b, b, b]],
+                    [L = [b, b]],
+                    [L = [b]],
+                    [L = []]
+                ]).
+check_solutions(re_match_advanced2_test02(L), [
+                    [L = [a, b, b, b, b, b, b]],
+                    [L = [a, b, b, b, b, b, c]],
+                    [L = [a, b, b, b, b, b]],
+                    [L = [a, b, b, b, b, c]],
+                    [L = [a, b, b, b, b]],
+                    [L = [a, b, b, b, c]],
+                    [L = [a, b, b, b]],
+                    [L = [a, b, b, c]],
+                    [L = [a, b, b]],
+                    [L = [a, b, c]],
+                    [L = [a, b]],
+                    [L = [a, c]],
+                    [L = [a]]
+                ]).
+check_solutions(re_match_advanced2_test03(L), [
+                    [L = [a, a, a, a]],
+                    [L = [a, a, a, b]],
+                    [L = [a, a, a]],
+                    [L = [a, a, b, a]],
+                    [L = [a, a, b, b]],
+                    [L = [a, a, b]],
+                    [L = [a, a]],
+                    [L = [a, b, a, a]],
+                    [L = [a, b, a, b]],
+                    [L = [a, b, a]],
+                    [L = [a, b, b, a]],
+                    [L = [a, b, b, b]],
+                    [L = [a, b, b]],
+                    [L = [a, b]],
+                    [L = [a]],
+                    [L = [b, a, a, a]],
+                    [L = [b, a, a, b]],
+                    [L = [b, a, a]],
+                    [L = [b, a, b, a]],
+                    [L = [b, a, b, b]],
+                    [L = [b, a, b]],
+                    [L = [b, a]],
+                    [L = [b, b, a, a]],
+                    [L = [b, b, a, b]],
+                    [L = [b, b, a]],
+                    [L = [b, b, b, a]],
+                    [L = [b, b, b, b]],
+                    [L = [b, b, b]],
+                    [L = [b, b]],
+                    [L = [b]],
+                    [L = []]
+                ]).
+check_solutions(re_match_advanced2_test04(L), [
+                    [L = [a, a, a, a]],
+                    [L = [a, a, a, b]],
+                    [L = [a, a, a]],
+                    [L = [a, a, b, b]],
+                    [L = [a, a, b]],
+                    [L = [a, a]],
+                    [L = [a, b, b, b]],
+                    [L = [a, b, b]],
+                    [L = [a, b]],
+                    [L = [a]],
+                    [L = [b, b, b, b]],
+                    [L = [b, b, b]],
+                    [L = [b, b]],
+                    [L = [b]],
+                    [L = []]
+                ]).
+check_solutions(re_match_advanced2_test05(L), [
+                    [L = [a, b, a, b, a, b, a, b]],
+                    [L = [a, b, a, b, a, b]],
+                    [L = [a, b, a, b]],
+                    [L = [a, b]],
+                    [L = []]
+                ]).

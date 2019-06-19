@@ -1,0 +1,1286 @@
+-> -> -> -> -> -> ->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   -> <Block>
+-> -> -> ->                         -> ->       -> -> -> -> -> -> -> ->                   -> ->                   -> ->                   -> ->                   -> -> <class Unit>
+-> -> -> <class BlockFn1>
+-> <class BlockFn2>
+-> <class BlockFn3>
+-> <class BlockFn4>
+-> ->                                                                                                                                                                                                                                                                                                                                                                                                                                     <class XVectorTester>
+-> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 427
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 428
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 429
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 430
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 431
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 432
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 433
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 434
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 435
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 436
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 437
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 438
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 439
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 444
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 445
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 446
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 447
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 448
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 449
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 450
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 451
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 452
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 453
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 454
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 455
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 456
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 461
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 462
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 463
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 464
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 465
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 466
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 467
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 468
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 469
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 470
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 471
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 472
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 473
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 478
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 479
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 480
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 481
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 482
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 483
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 484
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 485
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 486
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 487
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 488
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 489
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 490
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 495
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 496
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 497
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 498
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 499
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 500
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 501
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 502
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 503
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 504
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 505
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 506
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 507
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 512
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 513
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 514
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 515
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 516
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 517
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 518
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 519
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 520
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 521
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 522
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 523
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 524
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 529
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 530
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 531
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 532
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 533
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 534
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 535
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 536
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 537
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 538
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 539
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 540
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 541
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 546
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 547
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 548
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 549
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 550
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 551
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 552
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 553
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 554
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 555
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 556
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 557
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 558
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 563
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 564
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 565
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 566
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 567
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 568
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 569
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 570
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 571
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 572
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 573
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 574
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 575
+-> -> -> -> ->    <class Array>
+-> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 583
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 584
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 585
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 586
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 587
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 588
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 589
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 590
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 591
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 592
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 593
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 594
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 595
+-> -> ->    <class Array>
+-> -> 
+##########
+-> -> -> -> -> -> -> -> -> -> 
+##########
+-> -> -> -> -> -> -> -> -> -> -> -> 
+##########
+-> -> -> -> -> -> -> -> -> -> -> -> -> -> 
+##########
+-> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> 
+##########
+-> -> -> -> -> -> -> -> 
+##########
+-> -> -> Testing cxv01
+(debug cxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 666
+-> Testing cxv02
+(debug cxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 667
+-> Testing cxv03
+(debug cxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 668
+-> -> 
+##########
+-> -> -> Testing mxv01
+(debug mxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 673
+-> Testing mxv02
+(debug mxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 674
+-> Testing mxv03
+(debug mxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 675
+-> Testing mxv04
+(debug mxv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 676
+-> -> 
+##########
+-> -> -> Testing rxv01
+(debug rxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 681
+-> Testing rxv02
+(debug rxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 682
+-> Testing rxv03
+(debug rxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 683
+-> Testing rxv04
+(debug rxv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 684
+-> Testing rxv05
+(debug rxv05) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 685
+-> -> 
+##########
+-> -> -> Testing sxv01
+(debug sxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 690
+-> Testing sxv02
+(debug sxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 691
+-> Testing sxv03
+(debug sxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 692
+-> Testing sxv04
+(debug sxv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 693
+-> Testing sxv05
+(debug sxv05) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 694
+-> Testing sxv06
+(debug sxv06) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 695
+-> Testing sxv07
+(debug sxv07) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 696
+-> -> 
+##########
+-> -> -> Testing bxv01
+(debug bxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 701
+-> Testing bxv02
+(debug bxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 355
+  Sent 'test-debug' in standard input, line 702
+-> -> 
+##########
+-> -> -> Testing cxv01
+(size cxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 707
+-> Testing cxv02
+(size cxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 708
+-> Testing cxv03
+(size cxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 709
+-> -> 
+##########
+-> -> -> Testing mxv01
+(size mxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 714
+-> Testing mxv02
+(size mxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 715
+-> Testing mxv03
+(size mxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 716
+-> Testing mxv04
+(size mxv04) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 717
+-> -> 
+##########
+-> -> -> Testing rxv01
+(size rxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 722
+-> Testing rxv02
+(size rxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 723
+-> Testing rxv03
+(size rxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 724
+-> Testing rxv04
+(size rxv04) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 725
+-> Testing rxv05
+(size rxv05) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 726
+-> -> 
+##########
+-> -> -> Testing sxv01
+(size sxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 731
+-> Testing sxv02
+(size sxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 732
+-> Testing sxv03
+(size sxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 733
+-> Testing sxv04
+(size sxv04) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 734
+-> Testing sxv05
+(size sxv05) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 735
+-> Testing sxv06
+(size sxv06) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 736
+-> Testing sxv07
+(size sxv07) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 737
+-> -> 
+##########
+-> -> -> Testing bxv01
+(size bxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 742
+-> Testing bxv02
+(size bxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 359
+  Sent 'test-size' in standard input, line 743
+-> -> 
+##########
+-> -> -> Testing cxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 748
+-> Testing cxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 749
+-> Testing cxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 750
+-> -> 
+##########
+-> -> -> Testing mxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 755
+-> Testing mxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 756
+-> Testing mxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 757
+-> Testing mxv04
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 758
+-> -> 
+##########
+-> -> -> Testing rxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 763
+-> Testing rxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 764
+-> Testing rxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 765
+-> Testing rxv04
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 766
+-> Testing rxv05
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 767
+-> -> 
+##########
+-> -> -> Testing sxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 772
+-> Testing sxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 773
+-> Testing sxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 774
+-> Testing sxv04
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 775
+-> Testing sxv05
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 776
+-> Testing sxv06
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 777
+-> Testing sxv07
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 778
+-> -> 
+##########
+-> -> -> Testing bxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 783
+-> Testing bxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 365
+  Sent 'value' in predefined classes, line 466
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 465
+  Sent 'do:' in standard input, line 363
+  Sent 'test-elem' in standard input, line 784
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 789
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 790
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 791
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 796
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 797
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 798
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 799
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 804
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 805
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 806
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 807
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 808
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 813
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 814
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 815
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 816
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 817
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 818
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 819
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 824
+-> Method-stack traceback:
+  Sent 'size' in standard input, line 244
+  Sent 'init' in standard input, line 240
+  Sent 'xv:name:' in standard input, line 825
+-> -> 
+##########
+-> -> ->                                                                                                                                                                                                                                                                                                             <class XVectorTesterMisc>
+-> -> -> -> -> -> -> 
+##########
+-> -> -> -> Testing xv01
+(debug xv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 941
+-> -> 
+##########
+-> -> -> -> Testing xv02
+(debug xv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 947
+-> -> 
+##########
+-> -> -> -> Testing xv03
+(debug xv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 953
+-> -> 
+##########
+-> -> -> -> Testing xv04
+(debug xv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 959
+-> -> 
+##########
+-> -> -> -> Testing xv05
+(debug xv05) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 965
+-> -> 
+##########
+-> -> -> -> Testing xv06
+(debug xv06) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 971
+-> -> 
+##########
+-> -> -> -> Testing xv07
+(debug xv07) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 977
+-> -> 
+##########
+-> -> -> -> Testing xv08
+(debug xv08) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 983
+-> -> 
+##########
+-> -> -> -> Testing xv09
+(debug xv09) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 989
+-> -> 
+##########
+-> -> -> -> Testing xv10
+(debug xv10) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 995
+-> -> 
+##########
+-> -> -> -> Testing xv11
+(debug xv11) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1001
+-> -> 
+##########
+-> -> -> -> Testing xv12
+(debug xv12) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1007
+-> -> 
+##########
+-> -> -> -> Testing xv13
+(debug xv13) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1013
+-> -> 
+##########
+-> -> -> -> Testing xv14
+(debug xv14) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1019
+-> -> 
+##########
+-> -> -> -> Testing xv15
+(debug xv15) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1025
+-> -> 
+##########
+-> -> -> -> Testing xv16
+(debug xv16) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1031
+-> -> 
+##########
+-> -> -> -> Testing xv17
+(debug xv17) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1037
+-> -> 
+##########
+-> -> -> -> Testing xv18
+(debug xv18) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 1043
+-> -> 
+##########
+-> -> -> -> Testing xv19
+(debug xv19) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 1049
+-> -> 
+##########
+-> -> -> Method-stack traceback:
+  Sent '*' in standard input, line 1054
+-> Testing xv20
+(debug xv20) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1055
+-> -> 
+##########
+-> -> -> -> 
+##########
+-> -> -> -> Testing xv21
+(debug xv21) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1065
+-> -> 
+##########
+-> -> -> -> Testing xv22
+(debug xv22) => Method-stack traceback:
+  Sent 'debug' in standard input, line 845
+  Sent 'testXV:testName:doProduct:' in standard input, line 832
+  Sent 'testXV:testName:' in standard input, line 1071
+-> -> 
+##########
+-> -> 
+##########
+-> -> 

@@ -1,0 +1,42 @@
+[query].
+
+check_solutions(partition([],P),
+                [[P = []]]).
+check_solutions(partition([a],P),
+                [[P = [[a]]]]).
+check_solutions(partition([a,b],P),
+                [[P = [[a],[b]]],
+                 [P = [[a,b]]]]).
+check_solutions(partition([a,b,c,d],P),
+                [[P = [[a],[b],[c],[d]]],
+                 [P = [[a],[b],[c,d]]],
+                 [P = [[a],[b,c],[d]]],
+                 [P = [[a],[b,c,d]]],
+                 [P = [[a,b],[c],[d]]],
+                 [P = [[a,b],[c,d]]],
+                 [P = [[a,b,c],[d]]],
+                 [P = [[a,b,c,d]]]]).
+check_solutions(partition([1,2,3,4],P),
+                [[P = [[1],[2],[3],[4]]],
+                 [P = [[1],[2],[3,4]]],
+                 [P = [[1],[2,3],[4]]],
+                 [P = [[1],[2,3,4]]],
+                 [P = [[1,2],[3],[4]]],
+                 [P = [[1,2],[3,4]]],
+                 [P = [[1,2,3],[4]]],
+                 [P = [[1,2,3,4]]]]).
+check_solutions(partition([a,b,c,a],P),
+                [[P = [[a],[b],[c],[a]]],
+                 [P = [[a],[b],[c,a]]],
+                 [P = [[a],[b,c],[a]]],
+                 [P = [[a],[b,c,a]]],
+                 [P = [[a,b],[c],[a]]],
+                 [P = [[a,b],[c,a]]],
+                 [P = [[a,b,c],[a]]],
+                 [P = [[a,b,c,a]]]]).
+
+check_solutions(partition(L,[]), [[L = []]]).
+check_solutions(partition(L,[[a]]), [[L = [a]]]).
+check_solutions(partition(L,[[a],[b],[c],[d]]), [[L = [a,b,c,d]]]).
+check_solutions(partition(L,[[a,b],[c,d],[e]]), [[L = [a,b,c,d,e]]]).
+check_solutions(partition(L,[[1],[2],[3,4,5]]), [[L = [1,2,3,4,5]]]).

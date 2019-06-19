@@ -1,0 +1,1 @@
+(define (array int) foo ([a : (array (array int))] [i : int]) (array-at a i))

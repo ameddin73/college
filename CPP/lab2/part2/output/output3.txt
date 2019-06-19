@@ -1,0 +1,16 @@
+$ garbage
+unrecognized command!
+$ sos 1
+$ vault
+DD: 0x28E837C5CB41DC3E, value: 1
+$ withdraw 0x28E837C5CB41DC3E
+$ doubloon 0x28E837C5CB41DC3E
+DD: 0x28E837C5CB41DC3E not in vault!
+$ withdraw 0x28E837C5CB41DC3E
+the vault is empty!
+$ gun 1
+DD: 0x0000000000000001 not in vault!
+$ deposit
+$ quit
+doubloons in vault: 1
+total worth: 1

@@ -1,0 +1,464 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+(at:ifAbsent: xv01 1 {nil}) => nil
+(at:ifAbsent: xv01 2 {nil}) => nil
+(at:ifAbsent: xv01 3 {nil}) => nil
+(at:ifAbsent: xv01 4 {nil}) => nil
+(at:ifAbsent: xv01 5 {nil}) => nil
+(at:ifAbsent: xv01 7 {nil}) => nil
+(at:ifAbsent: xv01 8 {nil}) => nil
+(at:ifAbsent: xv01 9 {nil}) => nil
+(at:ifAbsent: xv01 1073741823 {nil}) => nil
+(at:ifAbsent: xv01 1073741824 {nil}) => nil
+(at:ifAbsent: xv01 1073741825 {nil}) => nil
+(at:ifAbsent: xv01 -1073741825 {nil}) => nil
+(at:ifAbsent: xv01 -1073741824 {nil}) => nil
+(at:ifAbsent: xv01 -1073741823 {nil}) => nil
+(at:ifAbsent: xv01 -9 {nil}) => nil
+(at:ifAbsent: xv01 -8 {nil}) => nil
+(at:ifAbsent: xv01 -7 {nil}) => nil
+(at:ifAbsent: xv01 -5 {nil}) => nil
+(at:ifAbsent: xv01 -4 {nil}) => nil
+(at:ifAbsent: xv01 -3 {nil}) => nil
+(at:ifAbsent: xv01 -2 {nil}) => nil
+(at:ifAbsent: xv01 -1 {nil}) => nil
+Testing xv02
+(at:ifAbsent: xv02 1 {nil}) => nil
+(at:ifAbsent: xv02 2 {nil}) => nil
+(at:ifAbsent: xv02 3 {nil}) => nil
+(at:ifAbsent: xv02 4 {nil}) => nil
+(at:ifAbsent: xv02 5 {nil}) => nil
+(at:ifAbsent: xv02 7 {nil}) => nil
+(at:ifAbsent: xv02 8 {nil}) => nil
+(at:ifAbsent: xv02 9 {nil}) => nil
+(at:ifAbsent: xv02 1073741823 {nil}) => nil
+(at:ifAbsent: xv02 1073741824 {nil}) => nil
+(at:ifAbsent: xv02 1073741825 {nil}) => nil
+(at:ifAbsent: xv02 -1073741825 {nil}) => nil
+(at:ifAbsent: xv02 -1073741824 {nil}) => nil
+(at:ifAbsent: xv02 -1073741823 {nil}) => nil
+(at:ifAbsent: xv02 -9 {nil}) => nil
+(at:ifAbsent: xv02 -8 {nil}) => nil
+(at:ifAbsent: xv02 -7 {nil}) => nil
+(at:ifAbsent: xv02 -5 {nil}) => nil
+(at:ifAbsent: xv02 -4 {nil}) => nil
+(at:ifAbsent: xv02 -3 {nil}) => nil
+(at:ifAbsent: xv02 -2 {nil}) => nil
+(at:ifAbsent: xv02 -1 {nil}) => nil
+Testing xv03
+(at:ifAbsent: xv03 1 {nil}) => 1
+(at:ifAbsent: xv03 2 {nil}) => 2
+(at:ifAbsent: xv03 3 {nil}) => nil
+(at:ifAbsent: xv03 4 {nil}) => nil
+(at:ifAbsent: xv03 5 {nil}) => nil
+(at:ifAbsent: xv03 7 {nil}) => nil
+(at:ifAbsent: xv03 8 {nil}) => nil
+(at:ifAbsent: xv03 9 {nil}) => nil
+(at:ifAbsent: xv03 1073741823 {nil}) => nil
+(at:ifAbsent: xv03 1073741824 {nil}) => nil
+(at:ifAbsent: xv03 1073741825 {nil}) => nil
+(at:ifAbsent: xv03 -1073741825 {nil}) => nil
+(at:ifAbsent: xv03 -1073741824 {nil}) => nil
+(at:ifAbsent: xv03 -1073741823 {nil}) => nil
+(at:ifAbsent: xv03 -9 {nil}) => nil
+(at:ifAbsent: xv03 -8 {nil}) => nil
+(at:ifAbsent: xv03 -7 {nil}) => nil
+(at:ifAbsent: xv03 -5 {nil}) => nil
+(at:ifAbsent: xv03 -4 {nil}) => nil
+(at:ifAbsent: xv03 -3 {nil}) => nil
+(at:ifAbsent: xv03 -2 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 189
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 187
+  Sent 'test-at-ifAbsent' in standard input, line 334
+Testing xv04
+(at:ifAbsent: xv04 1 {nil}) => 1
+(at:ifAbsent: xv04 2 {nil}) => 2
+(at:ifAbsent: xv04 3 {nil}) => 3
+(at:ifAbsent: xv04 4 {nil}) => 4
+(at:ifAbsent: xv04 5 {nil}) => 5
+(at:ifAbsent: xv04 7 {nil}) => nil
+(at:ifAbsent: xv04 8 {nil}) => nil
+(at:ifAbsent: xv04 9 {nil}) => nil
+(at:ifAbsent: xv04 1073741823 {nil}) => nil
+(at:ifAbsent: xv04 1073741824 {nil}) => nil
+(at:ifAbsent: xv04 1073741825 {nil}) => nil
+(at:ifAbsent: xv04 -1073741825 {nil}) => nil
+(at:ifAbsent: xv04 -1073741824 {nil}) => nil
+(at:ifAbsent: xv04 -1073741823 {nil}) => nil
+(at:ifAbsent: xv04 -9 {nil}) => nil
+(at:ifAbsent: xv04 -8 {nil}) => nil
+(at:ifAbsent: xv04 -7 {nil}) => nil
+(at:ifAbsent: xv04 -5 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 189
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 187
+  Sent 'test-at-ifAbsent' in standard input, line 335
+Testing xv05
+(at:ifAbsent: xv05 1 {nil}) => nil
+(at:ifAbsent: xv05 2 {nil}) => nil
+(at:ifAbsent: xv05 3 {nil}) => nil
+(at:ifAbsent: xv05 4 {nil}) => nil
+(at:ifAbsent: xv05 5 {nil}) => nil
+(at:ifAbsent: xv05 7 {nil}) => nil
+(at:ifAbsent: xv05 8 {nil}) => nil
+(at:ifAbsent: xv05 9 {nil}) => nil
+(at:ifAbsent: xv05 1073741823 {nil}) => nil
+(at:ifAbsent: xv05 1073741824 {nil}) => nil
+(at:ifAbsent: xv05 1073741825 {nil}) => nil
+(at:ifAbsent: xv05 -1073741825 {nil}) => nil
+(at:ifAbsent: xv05 -1073741824 {nil}) => nil
+(at:ifAbsent: xv05 -1073741823 {nil}) => nil
+(at:ifAbsent: xv05 -9 {nil}) => nil
+(at:ifAbsent: xv05 -8 {nil}) => nil
+(at:ifAbsent: xv05 -7 {nil}) => nil
+(at:ifAbsent: xv05 -5 {nil}) => nil
+(at:ifAbsent: xv05 -4 {nil}) => nil
+(at:ifAbsent: xv05 -3 {nil}) => nil
+(at:ifAbsent: xv05 -2 {nil}) => nil
+(at:ifAbsent: xv05 -1 {nil}) => nil
+Testing xv06
+(at:ifAbsent: xv06 1 {nil}) => -6
+(at:ifAbsent: xv06 2 {nil}) => -5
+(at:ifAbsent: xv06 3 {nil}) => nil
+(at:ifAbsent: xv06 4 {nil}) => nil
+(at:ifAbsent: xv06 5 {nil}) => nil
+(at:ifAbsent: xv06 7 {nil}) => nil
+(at:ifAbsent: xv06 8 {nil}) => nil
+(at:ifAbsent: xv06 9 {nil}) => nil
+(at:ifAbsent: xv06 1073741823 {nil}) => nil
+(at:ifAbsent: xv06 1073741824 {nil}) => nil
+(at:ifAbsent: xv06 1073741825 {nil}) => nil
+(at:ifAbsent: xv06 -1073741825 {nil}) => nil
+(at:ifAbsent: xv06 -1073741824 {nil}) => nil
+(at:ifAbsent: xv06 -1073741823 {nil}) => nil
+(at:ifAbsent: xv06 -9 {nil}) => nil
+(at:ifAbsent: xv06 -8 {nil}) => nil
+(at:ifAbsent: xv06 -7 {nil}) => nil
+(at:ifAbsent: xv06 -5 {nil}) => nil
+(at:ifAbsent: xv06 -4 {nil}) => nil
+(at:ifAbsent: xv06 -3 {nil}) => nil
+(at:ifAbsent: xv06 -2 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 189
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 187
+  Sent 'test-at-ifAbsent' in standard input, line 337
+Testing xv07
+(at:ifAbsent: xv07 1 {nil}) => -6
+(at:ifAbsent: xv07 2 {nil}) => -5
+(at:ifAbsent: xv07 3 {nil}) => -4
+(at:ifAbsent: xv07 4 {nil}) => -3
+(at:ifAbsent: xv07 5 {nil}) => -2
+(at:ifAbsent: xv07 7 {nil}) => nil
+(at:ifAbsent: xv07 8 {nil}) => nil
+(at:ifAbsent: xv07 9 {nil}) => nil
+(at:ifAbsent: xv07 1073741823 {nil}) => nil
+(at:ifAbsent: xv07 1073741824 {nil}) => nil
+(at:ifAbsent: xv07 1073741825 {nil}) => nil
+(at:ifAbsent: xv07 -1073741825 {nil}) => nil
+(at:ifAbsent: xv07 -1073741824 {nil}) => nil
+(at:ifAbsent: xv07 -1073741823 {nil}) => nil
+(at:ifAbsent: xv07 -9 {nil}) => nil
+(at:ifAbsent: xv07 -8 {nil}) => nil
+(at:ifAbsent: xv07 -7 {nil}) => nil
+(at:ifAbsent: xv07 -5 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 189
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 187
+  Sent 'test-at-ifAbsent' in standard input, line 338
+Testing xv08
+(at:ifAbsent: xv08 1 {nil}) => 1
+(at:ifAbsent: xv08 2 {nil}) => 2
+(at:ifAbsent: xv08 3 {nil}) => 3
+(at:ifAbsent: xv08 4 {nil}) => 4
+(at:ifAbsent: xv08 5 {nil}) => 5
+(at:ifAbsent: xv08 7 {nil}) => 7
+(at:ifAbsent: xv08 8 {nil}) => 8
+(at:ifAbsent: xv08 9 {nil}) => 9
+(at:ifAbsent: xv08 1073741823 {nil}) => nil
+(at:ifAbsent: xv08 1073741824 {nil}) => nil
+(at:ifAbsent: xv08 1073741825 {nil}) => nil
+(at:ifAbsent: xv08 -1073741825 {nil}) => nil
+(at:ifAbsent: xv08 -1073741824 {nil}) => nil
+(at:ifAbsent: xv08 -1073741823 {nil}) => nil
+(at:ifAbsent: xv08 -9 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 182
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 180
+  Sent 'test-at-ifAbsent' in standard input, line 339
+Testing xv09
+(at:ifAbsent: xv09 1 {nil}) => 1
+(at:ifAbsent: xv09 2 {nil}) => 4
+(at:ifAbsent: xv09 3 {nil}) => 9
+(at:ifAbsent: xv09 4 {nil}) => 16
+(at:ifAbsent: xv09 5 {nil}) => 25
+(at:ifAbsent: xv09 7 {nil}) => 18
+(at:ifAbsent: xv09 8 {nil}) => 2
+(at:ifAbsent: xv09 9 {nil}) => 19
+(at:ifAbsent: xv09 1073741823 {nil}) => nil
+(at:ifAbsent: xv09 1073741824 {nil}) => nil
+(at:ifAbsent: xv09 1073741825 {nil}) => nil
+(at:ifAbsent: xv09 -1073741825 {nil}) => nil
+(at:ifAbsent: xv09 -1073741824 {nil}) => nil
+(at:ifAbsent: xv09 -1073741823 {nil}) => nil
+(at:ifAbsent: xv09 -9 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 182
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 180
+  Sent 'test-at-ifAbsent' in standard input, line 340
+Testing xv10
+(at:ifAbsent: xv10 1 {nil}) => 1/1
+(at:ifAbsent: xv10 2 {nil}) => 1/2
+(at:ifAbsent: xv10 3 {nil}) => 1/3
+(at:ifAbsent: xv10 4 {nil}) => 1/4
+(at:ifAbsent: xv10 5 {nil}) => nil
+(at:ifAbsent: xv10 7 {nil}) => nil
+(at:ifAbsent: xv10 8 {nil}) => nil
+(at:ifAbsent: xv10 9 {nil}) => nil
+(at:ifAbsent: xv10 1073741823 {nil}) => nil
+(at:ifAbsent: xv10 1073741824 {nil}) => nil
+(at:ifAbsent: xv10 1073741825 {nil}) => nil
+(at:ifAbsent: xv10 -1073741825 {nil}) => nil
+(at:ifAbsent: xv10 -1073741824 {nil}) => nil
+(at:ifAbsent: xv10 -1073741823 {nil}) => nil
+(at:ifAbsent: xv10 -9 {nil}) => nil
+(at:ifAbsent: xv10 -8 {nil}) => nil
+(at:ifAbsent: xv10 -7 {nil}) => nil
+(at:ifAbsent: xv10 -5 {nil}) => nil
+(at:ifAbsent: xv10 -4 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 189
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 187
+  Sent 'test-at-ifAbsent' in standard input, line 341
+Testing xv11
+(at:ifAbsent: xv11 1 {nil}) => 1/2
+(at:ifAbsent: xv11 2 {nil}) => 4/1
+(at:ifAbsent: xv11 3 {nil}) => 1/6
+(at:ifAbsent: xv11 4 {nil}) => 8/1
+(at:ifAbsent: xv11 5 {nil}) => 1/10
+(at:ifAbsent: xv11 7 {nil}) => 1/14
+(at:ifAbsent: xv11 8 {nil}) => 16/1
+(at:ifAbsent: xv11 9 {nil}) => 1/18
+(at:ifAbsent: xv11 1073741823 {nil}) => nil
+(at:ifAbsent: xv11 1073741824 {nil}) => nil
+(at:ifAbsent: xv11 1073741825 {nil}) => nil
+(at:ifAbsent: xv11 -1073741825 {nil}) => nil
+(at:ifAbsent: xv11 -1073741824 {nil}) => nil
+(at:ifAbsent: xv11 -1073741823 {nil}) => nil
+(at:ifAbsent: xv11 -9 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 182
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 180
+  Sent 'test-at-ifAbsent' in standard input, line 342
+Testing xv12
+(at:ifAbsent: xv12 1 {nil}) => <True>
+(at:ifAbsent: xv12 2 {nil}) => nil
+(at:ifAbsent: xv12 3 {nil}) => nil
+(at:ifAbsent: xv12 4 {nil}) => nil
+(at:ifAbsent: xv12 5 {nil}) => nil
+(at:ifAbsent: xv12 7 {nil}) => nil
+(at:ifAbsent: xv12 8 {nil}) => nil
+(at:ifAbsent: xv12 9 {nil}) => nil
+(at:ifAbsent: xv12 1073741823 {nil}) => nil
+(at:ifAbsent: xv12 1073741824 {nil}) => nil
+(at:ifAbsent: xv12 1073741825 {nil}) => nil
+(at:ifAbsent: xv12 -1073741825 {nil}) => nil
+(at:ifAbsent: xv12 -1073741824 {nil}) => nil
+(at:ifAbsent: xv12 -1073741823 {nil}) => nil
+(at:ifAbsent: xv12 -9 {nil}) => nil
+(at:ifAbsent: xv12 -8 {nil}) => nil
+(at:ifAbsent: xv12 -7 {nil}) => nil
+(at:ifAbsent: xv12 -5 {nil}) => nil
+(at:ifAbsent: xv12 -4 {nil}) => nil
+(at:ifAbsent: xv12 -3 {nil}) => nil
+(at:ifAbsent: xv12 -2 {nil}) => nil
+(at:ifAbsent: xv12 -1 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 96
+  Sent 'elem:' in standard input, line 28
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 19
+  Sent 'if' in standard input, line 27
+  Sent 'at:ifAbsent:' in standard input, line 189
+  Sent 'value' in predefined classes, line 453
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 452
+  Sent 'do:' in standard input, line 187
+  Sent 'test-at-ifAbsent' in standard input, line 343
+Testing xv13
+(at:ifAbsent: xv13 1 {nil}) => nil
+(at:ifAbsent: xv13 2 {nil}) => nil
+(at:ifAbsent: xv13 3 {nil}) => nil
+(at:ifAbsent: xv13 4 {nil}) => nil
+(at:ifAbsent: xv13 5 {nil}) => nil
+(at:ifAbsent: xv13 7 {nil}) => nil
+(at:ifAbsent: xv13 8 {nil}) => nil
+(at:ifAbsent: xv13 9 {nil}) => nil
+(at:ifAbsent: xv13 1073741823 {nil}) => nil
+(at:ifAbsent: xv13 1073741824 {nil}) => nil
+(at:ifAbsent: xv13 1073741825 {nil}) => nil
+(at:ifAbsent: xv13 -1073741825 {nil}) => nil
+(at:ifAbsent: xv13 -1073741824 {nil}) => nil
+(at:ifAbsent: xv13 -1073741823 {nil}) => nil
+(at:ifAbsent: xv13 -9 {nil}) => nil
+(at:ifAbsent: xv13 -8 {nil}) => nil
+(at:ifAbsent: xv13 -7 {nil}) => nil
+(at:ifAbsent: xv13 -5 {nil}) => nil
+(at:ifAbsent: xv13 -4 {nil}) => nil
+(at:ifAbsent: xv13 -3 {nil}) => nil
+(at:ifAbsent: xv13 -2 {nil}) => nil
+(at:ifAbsent: xv13 -1 {nil}) => nil

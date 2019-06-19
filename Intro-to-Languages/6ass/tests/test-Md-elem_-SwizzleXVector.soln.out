@@ -1,0 +1,66 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing sxv01
+Testing sxv02
+(elem sxv02 1) => 1
+(elem sxv02 2) => 2
+(elem sxv02 3) => 3
+(elem sxv02 4) => 4
+(elem sxv02 5) => 5
+(elem sxv02 6) => 6
+Testing sxv03
+(elem sxv03 1) => 1
+(elem sxv03 2) => 2
+(elem sxv03 3) => 3
+(elem sxv03 4) => 4
+(elem sxv03 5) => 5
+(elem sxv03 6) => 6
+Testing sxv04
+(elem sxv04 1) => 1
+(elem sxv04 2) => 1
+(elem sxv04 3) => 2
+(elem sxv04 4) => 2
+(elem sxv04 5) => 3
+(elem sxv04 6) => 3
+Testing sxv05
+(elem sxv05 1) => 1
+(elem sxv05 2) => 1
+(elem sxv05 3) => 2
+(elem sxv05 4) => 2
+(elem sxv05 5) => 3
+(elem sxv05 6) => 3
+(elem sxv05 7) => 4
+(elem sxv05 8) => 5
+(elem sxv05 9) => 6
+Testing sxv06
+(elem sxv06 1) => 1
+(elem sxv06 2) => 1
+(elem sxv06 3) => 2
+(elem sxv06 4) => 2
+(elem sxv06 5) => 3
+(elem sxv06 6) => 3
+(elem sxv06 7) => 4
+(elem sxv06 8) => 5
+(elem sxv06 9) => 6
+Testing sxv07
+(elem sxv07 1) => 1
+(elem sxv07 2) => 1
+(elem sxv07 3) => 2
+(elem sxv07 4) => 2
+(elem sxv07 5) => 3
+(elem sxv07 6) => 3
+(elem sxv07 7) => 4
+(elem sxv07 8) => 4
+(elem sxv07 9) => 5
+(elem sxv07 10) => 5

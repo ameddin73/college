@@ -1,0 +1,1 @@
+type error: In if expression, true branch has type int but false branch has type sym

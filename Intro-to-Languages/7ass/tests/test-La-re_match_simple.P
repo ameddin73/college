@@ -1,0 +1,17 @@
+[query].
+
+check_satisfiable(re_match(alt(char(a),star(char(b))),[])).
+check_satisfiable(re_match(alt(char(a),star(char(b))),[a])).
+check_unsatisfiable(re_match(alt(char(a),star(char(b))),[a,b])).
+check_unsatisfiable(re_match(alt(char(a),star(char(b))),[a,b,b])).
+check_satisfiable(re_match(alt(char(a),star(char(b))),[b])).
+check_satisfiable(re_match(alt(char(a),star(char(b))),[b,b])).
+check_unsatisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[])).
+check_satisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[a])).
+check_unsatisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[b])).
+check_satisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[a,b])).
+check_satisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[a,b,b])).
+check_satisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[a,b,b,c])).
+check_unsatisfiable(re_match(seq(char(a),seq(star(char(b)),alt(char(c),epsilon))),[a,b,b,c,c])).
+check_satisfiable(re_match(seq(char(a),char(b)),[a,b])).
+check_satisfiable(re_match(star(char(b)),[b,b,b,b])).

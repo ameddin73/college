@@ -1,0 +1,16 @@
+[fact].
+re_match(epsilon, []).
+re_match(char(X),[X]).
+re_match(seq(RE1,RE2),L) :- re_match(RE1,R1), re_match(RE2,R2), append(R1,R2,L). 
+re_match(alt(RE1,RE2),L) :- re_match(RE1,L).
+re_match(alt(RE1,RE2),L) :- re_match(RE2,L).
+;re_match(star(RE),[]).
+re_match(star(RE),L) :- print(RE),between(1,10,N), ofLength(N,L),re_match(RE,H),print(L),   append(H,T,L), re_match(star(RE),T).
+append([], YS, YS).
+append([X|XS], YS, [X|ZS]) :- append(XS, YS, ZS).
+between(Low,High,Low) :- Low =< High.
+between(Low,High,N) :- Low =< High, LowPlusOne is Low+1, between(LowPlusOne,High,N).
+ofLength(0, []).
+ofLength(N, [H|T]) :- N >= 1, M is N - 1, ofLength(M, T).
+[query].
+re_match(star(star(char(a))),L).

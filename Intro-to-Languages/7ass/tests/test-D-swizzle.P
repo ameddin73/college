@@ -1,0 +1,23 @@
+[query].
+
+check_solutions(swizzle([], [], L3), [[L3 = []]]).
+check_solutions(swizzle([a], [], L3), [[L3 = [a]]]).
+check_solutions(swizzle([], [b], L3), [[L3 = [b]]]).
+check_solutions(swizzle([a], [b], L3), [[L3 = [a, b]]]).
+check_solutions(swizzle([a,b,c], [d,e,f], L3), [[L3 = [a,d,b,e,c,f]]]).
+check_solutions(swizzle([a,b], [c,d,e,f], L3), [[L3 = [a,c,b,d,e,f]]]).
+check_solutions(swizzle([a,b,c,d], [e,f], L3), [[L3 = [a,e,b,f,c,d]]]).
+
+check_solutions(swizzle(L1, L2, []),
+                [[L1 = [], L2 = []]]).
+check_solutions(swizzle(L1, L2, [a]),
+                [[L1 = [], L2 = [a]],
+                 [L1 = [a], L2 = []]]).
+check_solutions(swizzle(L1, L2, [a,b,c,d,e,f]),
+                [[L1 = [], L2 = [a,b,c,d,e,f]],
+                 [L1 = [a,b,c,d,e,f], L2 = []],
+                 [L1 = [a], L2 = [b,c,d,e,f]],
+                 [L1 = [a,c,d,e,f], L2 = [b]],
+                 [L1 = [a,c], L2 = [b,d,e,f]],
+                 [L1 = [a,c,e,f], L2 = [b,d]],
+                 [L1 = [a,c,e], L2 = [b,d,f]]]).

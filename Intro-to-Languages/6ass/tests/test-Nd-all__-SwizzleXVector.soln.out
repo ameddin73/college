@@ -1,0 +1,754 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing sxv01
+(at:ifAbsent: sxv01 1 {nil}) => nil
+(at:ifAbsent: sxv01 2 {nil}) => nil
+(at:ifAbsent: sxv01 3 {nil}) => nil
+(at:ifAbsent: sxv01 4 {nil}) => nil
+(at:ifAbsent: sxv01 5 {nil}) => nil
+(at:ifAbsent: sxv01 7 {nil}) => nil
+(at:ifAbsent: sxv01 8 {nil}) => nil
+(at:ifAbsent: sxv01 9 {nil}) => nil
+(at:ifAbsent: sxv01 1073741823 {nil}) => nil
+(at:ifAbsent: sxv01 1073741824 {nil}) => nil
+(at:ifAbsent: sxv01 1073741825 {nil}) => nil
+(at:ifAbsent: sxv01 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv01 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv01 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv01 -9 {nil}) => nil
+(at:ifAbsent: sxv01 -8 {nil}) => nil
+(at:ifAbsent: sxv01 -7 {nil}) => nil
+(at:ifAbsent: sxv01 -5 {nil}) => nil
+(at:ifAbsent: sxv01 -4 {nil}) => nil
+(at:ifAbsent: sxv01 -3 {nil}) => nil
+(at:ifAbsent: sxv01 -2 {nil}) => nil
+(at:ifAbsent: sxv01 -1 {nil}) => nil
+Testing sxv01
+(print sxv01) => << >>
+(detect:ifNone: sxv01 negative) => nil
+(detect:ifNone: sxv01 positive) => nil
+Testing sxv01
+(sum sxv01) => 0
+Testing sxv01
+(product sxv01) => 1
+Testing sxv01
+Testing sxv01
+Testing sxv01
+(= sxv01 nil) => <False>
+(= sxv01 <True>) => <False>
+(= sxv01 <False>) => <False>
+(= sxv01 0) => <False>
+(= sxv01 1) => <False>
+(= sxv01 2) => <False>
+(= sxv01 42) => <False>
+(= sxv01 xv01) => <True>
+(= sxv01 xv02) => <False>
+(= sxv01 xv03) => <False>
+(= sxv01 xv04) => <False>
+(= sxv01 xv05) => <False>
+(= sxv01 xv06) => <False>
+(= sxv01 xv07) => <False>
+(= sxv01 xv08) => <False>
+(= sxv01 xv09) => <False>
+(= sxv01 xv10) => <False>
+(= sxv01 xv11) => <False>
+(= sxv01 xv12) => <False>
+(= sxv01 xv13) => <False>
+(= sxv01 sxv01) => <True>
+(= sxv01 sxv02) => <False>
+(= sxv01 sxv03) => <False>
+(= sxv01 sxv04) => <False>
+(= sxv01 sxv05) => <False>
+(= sxv01 sxv06) => <False>
+(= sxv01 sxv07) => <False>
+Testing sxv01
+(< sxv01 xv01) => <False>
+(< sxv01 xv02) => <True>
+(< sxv01 xv03) => <True>
+(< sxv01 xv04) => <True>
+(< sxv01 xv05) => <True>
+(< sxv01 xv06) => <True>
+(< sxv01 xv07) => <True>
+(< sxv01 xv08) => <True>
+(< sxv01 xv09) => <True>
+(< sxv01 xv10) => <True>
+(< sxv01 xv11) => <True>
+(< sxv01 sxv01) => <False>
+(< sxv01 sxv02) => <True>
+(< sxv01 sxv03) => <True>
+(< sxv01 sxv04) => <True>
+(< sxv01 sxv05) => <True>
+(< sxv01 sxv06) => <True>
+(< sxv01 sxv07) => <True>
+Testing sxv01
+Testing sxv02
+(at:ifAbsent: sxv02 1 {nil}) => 1
+(at:ifAbsent: sxv02 2 {nil}) => 2
+(at:ifAbsent: sxv02 3 {nil}) => 3
+(at:ifAbsent: sxv02 4 {nil}) => 4
+(at:ifAbsent: sxv02 5 {nil}) => 5
+(at:ifAbsent: sxv02 7 {nil}) => nil
+(at:ifAbsent: sxv02 8 {nil}) => nil
+(at:ifAbsent: sxv02 9 {nil}) => nil
+(at:ifAbsent: sxv02 1073741823 {nil}) => nil
+(at:ifAbsent: sxv02 1073741824 {nil}) => nil
+(at:ifAbsent: sxv02 1073741825 {nil}) => nil
+(at:ifAbsent: sxv02 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv02 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv02 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv02 -9 {nil}) => nil
+(at:ifAbsent: sxv02 -8 {nil}) => nil
+(at:ifAbsent: sxv02 -7 {nil}) => nil
+(at:ifAbsent: sxv02 -5 {nil}) => 2
+(at:ifAbsent: sxv02 -4 {nil}) => 3
+(at:ifAbsent: sxv02 -3 {nil}) => 4
+(at:ifAbsent: sxv02 -2 {nil}) => 5
+(at:ifAbsent: sxv02 -1 {nil}) => 6
+Testing sxv02
+(print sxv02) => << 1 2 3 4 5 6 >>
+(includes: sxv02 nil) => <False>
+(occurrencesOf: sxv02 nil) => 0
+(includes: sxv02 <True>) => <False>
+(occurrencesOf: sxv02 <True>) => 0
+(includes: sxv02 <False>) => <False>
+(occurrencesOf: sxv02 <False>) => 0
+(includes: sxv02 0) => <False>
+(occurrencesOf: sxv02 0) => 0
+(includes: sxv02 1) => <True>
+(occurrencesOf: sxv02 1) => 1
+(includes: sxv02 2) => <True>
+(occurrencesOf: sxv02 2) => 1
+(includes: sxv02 42) => <False>
+(occurrencesOf: sxv02 42) => 0
+(detect:ifNone: sxv02 negative) => nil
+(detect:ifNone: sxv02 positive) => 1
+Testing sxv02
+(sum sxv02) => 21
+Testing sxv02
+(product sxv02) => 720
+Testing sxv02
+(min sxv02) => 1
+Testing sxv02
+(max sxv02) => 6
+Testing sxv02
+(= sxv02 nil) => <False>
+(= sxv02 <True>) => <False>
+(= sxv02 <False>) => <False>
+(= sxv02 0) => <False>
+(= sxv02 1) => <False>
+(= sxv02 2) => <False>
+(= sxv02 42) => <False>
+(= sxv02 xv01) => <False>
+(= sxv02 xv02) => <False>
+(= sxv02 xv03) => <False>
+(= sxv02 xv04) => <True>
+(= sxv02 xv05) => <False>
+(= sxv02 xv06) => <False>
+(= sxv02 xv07) => <False>
+(= sxv02 xv08) => <False>
+(= sxv02 xv09) => <False>
+(= sxv02 xv12) => <False>
+(= sxv02 xv13) => <False>
+(= sxv02 sxv01) => <False>
+(= sxv02 sxv02) => <True>
+(= sxv02 sxv03) => <True>
+(= sxv02 sxv04) => <False>
+(= sxv02 sxv05) => <False>
+(= sxv02 sxv06) => <False>
+(= sxv02 sxv07) => <False>
+Testing sxv02
+(< sxv02 xv01) => <False>
+(< sxv02 xv02) => <False>
+(< sxv02 xv03) => <False>
+(< sxv02 xv04) => <False>
+(< sxv02 xv05) => <False>
+(< sxv02 xv06) => <False>
+(< sxv02 xv07) => <False>
+(< sxv02 xv08) => <True>
+(< sxv02 xv09) => <True>
+(< sxv02 sxv01) => <False>
+(< sxv02 sxv02) => <False>
+(< sxv02 sxv03) => <False>
+(< sxv02 sxv04) => <False>
+(< sxv02 sxv05) => <False>
+(< sxv02 sxv06) => <False>
+(< sxv02 sxv07) => <False>
+Testing sxv02
+(fromIndex:toIndex: sxv02 1 1) => << 1 >>
+(fromIndex:toIndex: sxv02 1 2) => << 1 2 >>
+(fromIndex:toIndex: sxv02 1 3) => << 1 2 3 >>
+(fromIndex:toIndex: sxv02 1 5) => << 1 2 3 4 5 >>
+(fromIndex:toIndex: sxv02 2 2) => << 2 >>
+(fromIndex:toIndex: sxv02 2 4) => << 2 3 4 >>
+(fromIndex:toIndex: sxv02 -1 -1) => << 6 >>
+(fromIndex:toIndex: sxv02 -2 -1) => << 5 6 >>
+(fromIndex:toIndex: sxv02 -3 -1) => << 4 5 6 >>
+(fromIndex:toIndex: sxv02 -5 -1) => << 2 3 4 5 6 >>
+(fromIndex:toIndex: sxv02 -2 -2) => << 5 >>
+(fromIndex:toIndex: sxv02 -4 -2) => << 3 4 5 >>
+(fromIndex:toIndex: sxv02 -1 1) => << 6 1 >>
+(fromIndex:toIndex: sxv02 -2 2) => << 5 6 1 2 >>
+(fromIndex:toIndex: sxv02 -3 3) => << 4 5 6 1 2 3 >>
+(fromIndex:toIndex: sxv02 -4 4) => << 3 4 >>
+(fromIndex:toIndex: sxv02 -5 5) => << 2 3 4 5 >>
+Testing sxv03
+(at:ifAbsent: sxv03 1 {nil}) => 1
+(at:ifAbsent: sxv03 2 {nil}) => 2
+(at:ifAbsent: sxv03 3 {nil}) => 3
+(at:ifAbsent: sxv03 4 {nil}) => 4
+(at:ifAbsent: sxv03 5 {nil}) => 5
+(at:ifAbsent: sxv03 7 {nil}) => nil
+(at:ifAbsent: sxv03 8 {nil}) => nil
+(at:ifAbsent: sxv03 9 {nil}) => nil
+(at:ifAbsent: sxv03 1073741823 {nil}) => nil
+(at:ifAbsent: sxv03 1073741824 {nil}) => nil
+(at:ifAbsent: sxv03 1073741825 {nil}) => nil
+(at:ifAbsent: sxv03 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv03 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv03 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv03 -9 {nil}) => nil
+(at:ifAbsent: sxv03 -8 {nil}) => nil
+(at:ifAbsent: sxv03 -7 {nil}) => nil
+(at:ifAbsent: sxv03 -5 {nil}) => 2
+(at:ifAbsent: sxv03 -4 {nil}) => 3
+(at:ifAbsent: sxv03 -3 {nil}) => 4
+(at:ifAbsent: sxv03 -2 {nil}) => 5
+(at:ifAbsent: sxv03 -1 {nil}) => 6
+Testing sxv03
+(print sxv03) => << 1 2 3 4 5 6 >>
+(includes: sxv03 nil) => <False>
+(occurrencesOf: sxv03 nil) => 0
+(includes: sxv03 <True>) => <False>
+(occurrencesOf: sxv03 <True>) => 0
+(includes: sxv03 <False>) => <False>
+(occurrencesOf: sxv03 <False>) => 0
+(includes: sxv03 0) => <False>
+(occurrencesOf: sxv03 0) => 0
+(includes: sxv03 1) => <True>
+(occurrencesOf: sxv03 1) => 1
+(includes: sxv03 2) => <True>
+(occurrencesOf: sxv03 2) => 1
+(includes: sxv03 42) => <False>
+(occurrencesOf: sxv03 42) => 0
+(detect:ifNone: sxv03 negative) => nil
+(detect:ifNone: sxv03 positive) => 1
+Testing sxv03
+(sum sxv03) => 21
+Testing sxv03
+(product sxv03) => 720
+Testing sxv03
+(min sxv03) => 1
+Testing sxv03
+(max sxv03) => 6
+Testing sxv03
+(= sxv03 nil) => <False>
+(= sxv03 <True>) => <False>
+(= sxv03 <False>) => <False>
+(= sxv03 0) => <False>
+(= sxv03 1) => <False>
+(= sxv03 2) => <False>
+(= sxv03 42) => <False>
+(= sxv03 xv01) => <False>
+(= sxv03 xv02) => <False>
+(= sxv03 xv03) => <False>
+(= sxv03 xv04) => <True>
+(= sxv03 xv05) => <False>
+(= sxv03 xv06) => <False>
+(= sxv03 xv07) => <False>
+(= sxv03 xv08) => <False>
+(= sxv03 xv09) => <False>
+(= sxv03 xv12) => <False>
+(= sxv03 xv13) => <False>
+(= sxv03 sxv01) => <False>
+(= sxv03 sxv02) => <True>
+(= sxv03 sxv03) => <True>
+(= sxv03 sxv04) => <False>
+(= sxv03 sxv05) => <False>
+(= sxv03 sxv06) => <False>
+(= sxv03 sxv07) => <False>
+Testing sxv03
+(< sxv03 xv01) => <False>
+(< sxv03 xv02) => <False>
+(< sxv03 xv03) => <False>
+(< sxv03 xv04) => <False>
+(< sxv03 xv05) => <False>
+(< sxv03 xv06) => <False>
+(< sxv03 xv07) => <False>
+(< sxv03 xv08) => <True>
+(< sxv03 xv09) => <True>
+(< sxv03 sxv01) => <False>
+(< sxv03 sxv02) => <False>
+(< sxv03 sxv03) => <False>
+(< sxv03 sxv04) => <False>
+(< sxv03 sxv05) => <False>
+(< sxv03 sxv06) => <False>
+(< sxv03 sxv07) => <False>
+Testing sxv03
+(fromIndex:toIndex: sxv03 1 1) => << 1 >>
+(fromIndex:toIndex: sxv03 1 2) => << 1 2 >>
+(fromIndex:toIndex: sxv03 1 3) => << 1 2 3 >>
+(fromIndex:toIndex: sxv03 1 5) => << 1 2 3 4 5 >>
+(fromIndex:toIndex: sxv03 2 2) => << 2 >>
+(fromIndex:toIndex: sxv03 2 4) => << 2 3 4 >>
+(fromIndex:toIndex: sxv03 -1 -1) => << 6 >>
+(fromIndex:toIndex: sxv03 -2 -1) => << 5 6 >>
+(fromIndex:toIndex: sxv03 -3 -1) => << 4 5 6 >>
+(fromIndex:toIndex: sxv03 -5 -1) => << 2 3 4 5 6 >>
+(fromIndex:toIndex: sxv03 -2 -2) => << 5 >>
+(fromIndex:toIndex: sxv03 -4 -2) => << 3 4 5 >>
+(fromIndex:toIndex: sxv03 -1 1) => << 6 1 >>
+(fromIndex:toIndex: sxv03 -2 2) => << 5 6 1 2 >>
+(fromIndex:toIndex: sxv03 -3 3) => << 4 5 6 1 2 3 >>
+(fromIndex:toIndex: sxv03 -4 4) => << 3 4 >>
+(fromIndex:toIndex: sxv03 -5 5) => << 2 3 4 5 >>
+Testing sxv04
+(at:ifAbsent: sxv04 1 {nil}) => 1
+(at:ifAbsent: sxv04 2 {nil}) => 1
+(at:ifAbsent: sxv04 3 {nil}) => 2
+(at:ifAbsent: sxv04 4 {nil}) => 2
+(at:ifAbsent: sxv04 5 {nil}) => 3
+(at:ifAbsent: sxv04 7 {nil}) => nil
+(at:ifAbsent: sxv04 8 {nil}) => nil
+(at:ifAbsent: sxv04 9 {nil}) => nil
+(at:ifAbsent: sxv04 1073741823 {nil}) => nil
+(at:ifAbsent: sxv04 1073741824 {nil}) => nil
+(at:ifAbsent: sxv04 1073741825 {nil}) => nil
+(at:ifAbsent: sxv04 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv04 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv04 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv04 -9 {nil}) => nil
+(at:ifAbsent: sxv04 -8 {nil}) => nil
+(at:ifAbsent: sxv04 -7 {nil}) => nil
+(at:ifAbsent: sxv04 -5 {nil}) => 1
+(at:ifAbsent: sxv04 -4 {nil}) => 2
+(at:ifAbsent: sxv04 -3 {nil}) => 2
+(at:ifAbsent: sxv04 -2 {nil}) => 3
+(at:ifAbsent: sxv04 -1 {nil}) => 3
+Testing sxv04
+(print sxv04) => << 1 1 2 2 3 3 >>
+(includes: sxv04 nil) => <False>
+(occurrencesOf: sxv04 nil) => 0
+(includes: sxv04 <True>) => <False>
+(occurrencesOf: sxv04 <True>) => 0
+(includes: sxv04 <False>) => <False>
+(occurrencesOf: sxv04 <False>) => 0
+(includes: sxv04 0) => <False>
+(occurrencesOf: sxv04 0) => 0
+(includes: sxv04 1) => <True>
+(occurrencesOf: sxv04 1) => 2
+(includes: sxv04 2) => <True>
+(occurrencesOf: sxv04 2) => 2
+(includes: sxv04 42) => <False>
+(occurrencesOf: sxv04 42) => 0
+(detect:ifNone: sxv04 negative) => nil
+(detect:ifNone: sxv04 positive) => 1
+Testing sxv04
+(sum sxv04) => 12
+Testing sxv04
+(product sxv04) => 36
+Testing sxv04
+(min sxv04) => 1
+Testing sxv04
+(max sxv04) => 3
+Testing sxv04
+(= sxv04 nil) => <False>
+(= sxv04 <True>) => <False>
+(= sxv04 <False>) => <False>
+(= sxv04 0) => <False>
+(= sxv04 1) => <False>
+(= sxv04 2) => <False>
+(= sxv04 42) => <False>
+(= sxv04 xv01) => <False>
+(= sxv04 xv02) => <False>
+(= sxv04 xv03) => <False>
+(= sxv04 xv04) => <False>
+(= sxv04 xv05) => <False>
+(= sxv04 xv06) => <False>
+(= sxv04 xv07) => <False>
+(= sxv04 xv08) => <False>
+(= sxv04 xv09) => <False>
+(= sxv04 xv12) => <False>
+(= sxv04 xv13) => <False>
+(= sxv04 sxv01) => <False>
+(= sxv04 sxv02) => <False>
+(= sxv04 sxv03) => <False>
+(= sxv04 sxv04) => <True>
+(= sxv04 sxv05) => <False>
+(= sxv04 sxv06) => <False>
+(= sxv04 sxv07) => <False>
+Testing sxv04
+(< sxv04 xv01) => <False>
+(< sxv04 xv02) => <False>
+(< sxv04 xv03) => <True>
+(< sxv04 xv04) => <True>
+(< sxv04 xv05) => <False>
+(< sxv04 xv06) => <False>
+(< sxv04 xv07) => <False>
+(< sxv04 xv08) => <True>
+(< sxv04 xv09) => <True>
+(< sxv04 sxv01) => <False>
+(< sxv04 sxv02) => <True>
+(< sxv04 sxv03) => <True>
+(< sxv04 sxv04) => <False>
+(< sxv04 sxv05) => <True>
+(< sxv04 sxv06) => <True>
+(< sxv04 sxv07) => <True>
+Testing sxv04
+(fromIndex:toIndex: sxv04 1 1) => << 1 >>
+(fromIndex:toIndex: sxv04 1 2) => << 1 1 >>
+(fromIndex:toIndex: sxv04 1 3) => << 1 1 2 >>
+(fromIndex:toIndex: sxv04 1 5) => << 1 1 2 2 3 >>
+(fromIndex:toIndex: sxv04 2 2) => << 1 >>
+(fromIndex:toIndex: sxv04 2 4) => << 1 2 2 >>
+(fromIndex:toIndex: sxv04 -1 -1) => << 3 >>
+(fromIndex:toIndex: sxv04 -2 -1) => << 3 3 >>
+(fromIndex:toIndex: sxv04 -3 -1) => << 2 3 3 >>
+(fromIndex:toIndex: sxv04 -5 -1) => << 1 2 2 3 3 >>
+(fromIndex:toIndex: sxv04 -2 -2) => << 3 >>
+(fromIndex:toIndex: sxv04 -4 -2) => << 2 2 3 >>
+(fromIndex:toIndex: sxv04 -1 1) => << 3 1 >>
+(fromIndex:toIndex: sxv04 -2 2) => << 3 3 1 1 >>
+(fromIndex:toIndex: sxv04 -3 3) => << 2 3 3 1 1 2 >>
+(fromIndex:toIndex: sxv04 -4 4) => << 2 2 >>
+(fromIndex:toIndex: sxv04 -5 5) => << 1 2 2 3 >>
+Testing sxv05
+(at:ifAbsent: sxv05 1 {nil}) => 1
+(at:ifAbsent: sxv05 2 {nil}) => 1
+(at:ifAbsent: sxv05 3 {nil}) => 2
+(at:ifAbsent: sxv05 4 {nil}) => 2
+(at:ifAbsent: sxv05 5 {nil}) => 3
+(at:ifAbsent: sxv05 7 {nil}) => 4
+(at:ifAbsent: sxv05 8 {nil}) => 5
+(at:ifAbsent: sxv05 9 {nil}) => 6
+(at:ifAbsent: sxv05 1073741823 {nil}) => nil
+(at:ifAbsent: sxv05 1073741824 {nil}) => nil
+(at:ifAbsent: sxv05 1073741825 {nil}) => nil
+(at:ifAbsent: sxv05 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv05 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv05 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv05 -9 {nil}) => 1
+(at:ifAbsent: sxv05 -8 {nil}) => 1
+(at:ifAbsent: sxv05 -7 {nil}) => 2
+(at:ifAbsent: sxv05 -5 {nil}) => 3
+(at:ifAbsent: sxv05 -4 {nil}) => 3
+(at:ifAbsent: sxv05 -3 {nil}) => 4
+(at:ifAbsent: sxv05 -2 {nil}) => 5
+(at:ifAbsent: sxv05 -1 {nil}) => 6
+Testing sxv05
+(print sxv05) => << 1 1 2 2 3 3 4 5 6 >>
+(includes: sxv05 nil) => <False>
+(occurrencesOf: sxv05 nil) => 0
+(includes: sxv05 <True>) => <False>
+(occurrencesOf: sxv05 <True>) => 0
+(includes: sxv05 <False>) => <False>
+(occurrencesOf: sxv05 <False>) => 0
+(includes: sxv05 0) => <False>
+(occurrencesOf: sxv05 0) => 0
+(includes: sxv05 1) => <True>
+(occurrencesOf: sxv05 1) => 2
+(includes: sxv05 2) => <True>
+(occurrencesOf: sxv05 2) => 2
+(includes: sxv05 42) => <False>
+(occurrencesOf: sxv05 42) => 0
+(detect:ifNone: sxv05 negative) => nil
+(detect:ifNone: sxv05 positive) => 1
+Testing sxv05
+(sum sxv05) => 27
+Testing sxv05
+(product sxv05) => 4320
+Testing sxv05
+(min sxv05) => 1
+Testing sxv05
+(max sxv05) => 6
+Testing sxv05
+(= sxv05 nil) => <False>
+(= sxv05 <True>) => <False>
+(= sxv05 <False>) => <False>
+(= sxv05 0) => <False>
+(= sxv05 1) => <False>
+(= sxv05 2) => <False>
+(= sxv05 42) => <False>
+(= sxv05 xv01) => <False>
+(= sxv05 xv02) => <False>
+(= sxv05 xv03) => <False>
+(= sxv05 xv04) => <False>
+(= sxv05 xv05) => <False>
+(= sxv05 xv06) => <False>
+(= sxv05 xv07) => <False>
+(= sxv05 xv08) => <False>
+(= sxv05 xv09) => <False>
+(= sxv05 xv12) => <False>
+(= sxv05 xv13) => <False>
+(= sxv05 sxv01) => <False>
+(= sxv05 sxv02) => <False>
+(= sxv05 sxv03) => <False>
+(= sxv05 sxv04) => <False>
+(= sxv05 sxv05) => <True>
+(= sxv05 sxv06) => <True>
+(= sxv05 sxv07) => <False>
+Testing sxv05
+(< sxv05 xv01) => <False>
+(< sxv05 xv02) => <False>
+(< sxv05 xv03) => <True>
+(< sxv05 xv04) => <True>
+(< sxv05 xv05) => <False>
+(< sxv05 xv06) => <False>
+(< sxv05 xv07) => <False>
+(< sxv05 xv08) => <True>
+(< sxv05 xv09) => <True>
+(< sxv05 sxv01) => <False>
+(< sxv05 sxv02) => <True>
+(< sxv05 sxv03) => <True>
+(< sxv05 sxv04) => <False>
+(< sxv05 sxv05) => <False>
+(< sxv05 sxv06) => <False>
+(< sxv05 sxv07) => <False>
+Testing sxv05
+(fromIndex:toIndex: sxv05 1 1) => << 1 >>
+(fromIndex:toIndex: sxv05 1 2) => << 1 1 >>
+(fromIndex:toIndex: sxv05 1 3) => << 1 1 2 >>
+(fromIndex:toIndex: sxv05 1 5) => << 1 1 2 2 3 >>
+(fromIndex:toIndex: sxv05 2 2) => << 1 >>
+(fromIndex:toIndex: sxv05 2 4) => << 1 2 2 >>
+(fromIndex:toIndex: sxv05 -1 -1) => << 6 >>
+(fromIndex:toIndex: sxv05 -2 -1) => << 5 6 >>
+(fromIndex:toIndex: sxv05 -3 -1) => << 4 5 6 >>
+(fromIndex:toIndex: sxv05 -5 -1) => << 3 3 4 5 6 >>
+(fromIndex:toIndex: sxv05 -2 -2) => << 5 >>
+(fromIndex:toIndex: sxv05 -4 -2) => << 3 4 5 >>
+(fromIndex:toIndex: sxv05 -1 1) => << 6 1 >>
+(fromIndex:toIndex: sxv05 -2 2) => << 5 6 1 1 >>
+(fromIndex:toIndex: sxv05 -3 3) => << 4 5 6 1 1 2 >>
+(fromIndex:toIndex: sxv05 -4 4) => << 3 4 5 6 1 1 2 2 >>
+(fromIndex:toIndex: sxv05 -5 5) => << 3 >>
+Testing sxv06
+(at:ifAbsent: sxv06 1 {nil}) => 1
+(at:ifAbsent: sxv06 2 {nil}) => 1
+(at:ifAbsent: sxv06 3 {nil}) => 2
+(at:ifAbsent: sxv06 4 {nil}) => 2
+(at:ifAbsent: sxv06 5 {nil}) => 3
+(at:ifAbsent: sxv06 7 {nil}) => 4
+(at:ifAbsent: sxv06 8 {nil}) => 5
+(at:ifAbsent: sxv06 9 {nil}) => 6
+(at:ifAbsent: sxv06 1073741823 {nil}) => nil
+(at:ifAbsent: sxv06 1073741824 {nil}) => nil
+(at:ifAbsent: sxv06 1073741825 {nil}) => nil
+(at:ifAbsent: sxv06 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv06 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv06 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv06 -9 {nil}) => 1
+(at:ifAbsent: sxv06 -8 {nil}) => 1
+(at:ifAbsent: sxv06 -7 {nil}) => 2
+(at:ifAbsent: sxv06 -5 {nil}) => 3
+(at:ifAbsent: sxv06 -4 {nil}) => 3
+(at:ifAbsent: sxv06 -3 {nil}) => 4
+(at:ifAbsent: sxv06 -2 {nil}) => 5
+(at:ifAbsent: sxv06 -1 {nil}) => 6
+Testing sxv06
+(print sxv06) => << 1 1 2 2 3 3 4 5 6 >>
+(includes: sxv06 nil) => <False>
+(occurrencesOf: sxv06 nil) => 0
+(includes: sxv06 <True>) => <False>
+(occurrencesOf: sxv06 <True>) => 0
+(includes: sxv06 <False>) => <False>
+(occurrencesOf: sxv06 <False>) => 0
+(includes: sxv06 0) => <False>
+(occurrencesOf: sxv06 0) => 0
+(includes: sxv06 1) => <True>
+(occurrencesOf: sxv06 1) => 2
+(includes: sxv06 2) => <True>
+(occurrencesOf: sxv06 2) => 2
+(includes: sxv06 42) => <False>
+(occurrencesOf: sxv06 42) => 0
+(detect:ifNone: sxv06 negative) => nil
+(detect:ifNone: sxv06 positive) => 1
+Testing sxv06
+(sum sxv06) => 27
+Testing sxv06
+(product sxv06) => 4320
+Testing sxv06
+(min sxv06) => 1
+Testing sxv06
+(max sxv06) => 6
+Testing sxv06
+(= sxv06 nil) => <False>
+(= sxv06 <True>) => <False>
+(= sxv06 <False>) => <False>
+(= sxv06 0) => <False>
+(= sxv06 1) => <False>
+(= sxv06 2) => <False>
+(= sxv06 42) => <False>
+(= sxv06 xv01) => <False>
+(= sxv06 xv02) => <False>
+(= sxv06 xv03) => <False>
+(= sxv06 xv04) => <False>
+(= sxv06 xv05) => <False>
+(= sxv06 xv06) => <False>
+(= sxv06 xv07) => <False>
+(= sxv06 xv08) => <False>
+(= sxv06 xv09) => <False>
+(= sxv06 xv12) => <False>
+(= sxv06 xv13) => <False>
+(= sxv06 sxv01) => <False>
+(= sxv06 sxv02) => <False>
+(= sxv06 sxv03) => <False>
+(= sxv06 sxv04) => <False>
+(= sxv06 sxv05) => <True>
+(= sxv06 sxv06) => <True>
+(= sxv06 sxv07) => <False>
+Testing sxv06
+(< sxv06 xv01) => <False>
+(< sxv06 xv02) => <False>
+(< sxv06 xv03) => <True>
+(< sxv06 xv04) => <True>
+(< sxv06 xv05) => <False>
+(< sxv06 xv06) => <False>
+(< sxv06 xv07) => <False>
+(< sxv06 xv08) => <True>
+(< sxv06 xv09) => <True>
+(< sxv06 sxv01) => <False>
+(< sxv06 sxv02) => <True>
+(< sxv06 sxv03) => <True>
+(< sxv06 sxv04) => <False>
+(< sxv06 sxv05) => <False>
+(< sxv06 sxv06) => <False>
+(< sxv06 sxv07) => <False>
+Testing sxv06
+(fromIndex:toIndex: sxv06 1 1) => << 1 >>
+(fromIndex:toIndex: sxv06 1 2) => << 1 1 >>
+(fromIndex:toIndex: sxv06 1 3) => << 1 1 2 >>
+(fromIndex:toIndex: sxv06 1 5) => << 1 1 2 2 3 >>
+(fromIndex:toIndex: sxv06 2 2) => << 1 >>
+(fromIndex:toIndex: sxv06 2 4) => << 1 2 2 >>
+(fromIndex:toIndex: sxv06 -1 -1) => << 6 >>
+(fromIndex:toIndex: sxv06 -2 -1) => << 5 6 >>
+(fromIndex:toIndex: sxv06 -3 -1) => << 4 5 6 >>
+(fromIndex:toIndex: sxv06 -5 -1) => << 3 3 4 5 6 >>
+(fromIndex:toIndex: sxv06 -2 -2) => << 5 >>
+(fromIndex:toIndex: sxv06 -4 -2) => << 3 4 5 >>
+(fromIndex:toIndex: sxv06 -1 1) => << 6 1 >>
+(fromIndex:toIndex: sxv06 -2 2) => << 5 6 1 1 >>
+(fromIndex:toIndex: sxv06 -3 3) => << 4 5 6 1 1 2 >>
+(fromIndex:toIndex: sxv06 -4 4) => << 3 4 5 6 1 1 2 2 >>
+(fromIndex:toIndex: sxv06 -5 5) => << 3 >>
+Testing sxv07
+(at:ifAbsent: sxv07 1 {nil}) => 1
+(at:ifAbsent: sxv07 2 {nil}) => 1
+(at:ifAbsent: sxv07 3 {nil}) => 2
+(at:ifAbsent: sxv07 4 {nil}) => 2
+(at:ifAbsent: sxv07 5 {nil}) => 3
+(at:ifAbsent: sxv07 7 {nil}) => 4
+(at:ifAbsent: sxv07 8 {nil}) => 4
+(at:ifAbsent: sxv07 9 {nil}) => 5
+(at:ifAbsent: sxv07 1073741823 {nil}) => nil
+(at:ifAbsent: sxv07 1073741824 {nil}) => nil
+(at:ifAbsent: sxv07 1073741825 {nil}) => nil
+(at:ifAbsent: sxv07 -1073741825 {nil}) => nil
+(at:ifAbsent: sxv07 -1073741824 {nil}) => nil
+(at:ifAbsent: sxv07 -1073741823 {nil}) => nil
+(at:ifAbsent: sxv07 -9 {nil}) => 2
+(at:ifAbsent: sxv07 -8 {nil}) => 3
+(at:ifAbsent: sxv07 -7 {nil}) => 3
+(at:ifAbsent: sxv07 -5 {nil}) => 4
+(at:ifAbsent: sxv07 -4 {nil}) => 5
+(at:ifAbsent: sxv07 -3 {nil}) => 5
+(at:ifAbsent: sxv07 -2 {nil}) => 6
+(at:ifAbsent: sxv07 -1 {nil}) => 6
+Testing sxv07
+(print sxv07) => << 1 1 2 2 3 3 4 4 5 5 6 6 >>
+(includes: sxv07 nil) => <False>
+(occurrencesOf: sxv07 nil) => 0
+(includes: sxv07 <True>) => <False>
+(occurrencesOf: sxv07 <True>) => 0
+(includes: sxv07 <False>) => <False>
+(occurrencesOf: sxv07 <False>) => 0
+(includes: sxv07 0) => <False>
+(occurrencesOf: sxv07 0) => 0
+(includes: sxv07 1) => <True>
+(occurrencesOf: sxv07 1) => 2
+(includes: sxv07 2) => <True>
+(occurrencesOf: sxv07 2) => 2
+(includes: sxv07 42) => <False>
+(occurrencesOf: sxv07 42) => 0
+(detect:ifNone: sxv07 negative) => nil
+(detect:ifNone: sxv07 positive) => 1
+Testing sxv07
+(sum sxv07) => 42
+Testing sxv07
+(product sxv07) => 518400
+Testing sxv07
+(min sxv07) => 1
+Testing sxv07
+(max sxv07) => 6
+Testing sxv07
+(= sxv07 nil) => <False>
+(= sxv07 <True>) => <False>
+(= sxv07 <False>) => <False>
+(= sxv07 0) => <False>
+(= sxv07 1) => <False>
+(= sxv07 2) => <False>
+(= sxv07 42) => <False>
+(= sxv07 xv01) => <False>
+(= sxv07 xv02) => <False>
+(= sxv07 xv03) => <False>
+(= sxv07 xv04) => <False>
+(= sxv07 xv05) => <False>
+(= sxv07 xv06) => <False>
+(= sxv07 xv07) => <False>
+(= sxv07 xv08) => <False>
+(= sxv07 xv09) => <False>
+(= sxv07 xv12) => <False>
+(= sxv07 xv13) => <False>
+(= sxv07 sxv01) => <False>
+(= sxv07 sxv02) => <False>
+(= sxv07 sxv03) => <False>
+(= sxv07 sxv04) => <False>
+(= sxv07 sxv05) => <False>
+(= sxv07 sxv06) => <False>
+(= sxv07 sxv07) => <True>
+Testing sxv07
+(< sxv07 xv01) => <False>
+(< sxv07 xv02) => <False>
+(< sxv07 xv03) => <True>
+(< sxv07 xv04) => <True>
+(< sxv07 xv05) => <False>
+(< sxv07 xv06) => <False>
+(< sxv07 xv07) => <False>
+(< sxv07 xv08) => <True>
+(< sxv07 xv09) => <True>
+(< sxv07 sxv01) => <False>
+(< sxv07 sxv02) => <True>
+(< sxv07 sxv03) => <True>
+(< sxv07 sxv04) => <False>
+(< sxv07 sxv05) => <True>
+(< sxv07 sxv06) => <True>
+(< sxv07 sxv07) => <False>
+Testing sxv07
+(fromIndex:toIndex: sxv07 1 1) => << 1 >>
+(fromIndex:toIndex: sxv07 1 2) => << 1 1 >>
+(fromIndex:toIndex: sxv07 1 3) => << 1 1 2 >>
+(fromIndex:toIndex: sxv07 1 5) => << 1 1 2 2 3 >>
+(fromIndex:toIndex: sxv07 2 2) => << 1 >>
+(fromIndex:toIndex: sxv07 2 4) => << 1 2 2 >>
+(fromIndex:toIndex: sxv07 -1 -1) => << 6 >>
+(fromIndex:toIndex: sxv07 -2 -1) => << 6 6 >>
+(fromIndex:toIndex: sxv07 -3 -1) => << 5 6 6 >>
+(fromIndex:toIndex: sxv07 -5 -1) => << 4 5 5 6 6 >>
+(fromIndex:toIndex: sxv07 -2 -2) => << 6 >>
+(fromIndex:toIndex: sxv07 -4 -2) => << 5 5 6 >>
+(fromIndex:toIndex: sxv07 -1 1) => << 6 1 >>
+(fromIndex:toIndex: sxv07 -2 2) => << 6 6 1 1 >>
+(fromIndex:toIndex: sxv07 -3 3) => << 5 6 6 1 1 2 >>
+(fromIndex:toIndex: sxv07 -4 4) => << 5 5 6 6 1 1 2 2 >>
+(fromIndex:toIndex: sxv07 -5 5) => << 4 5 5 6 6 1 1 2 2 3 >>

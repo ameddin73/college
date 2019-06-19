@@ -1,0 +1,1 @@
+(define int foo ([a : (array int)] [i : int] [x : bool]) (array-put a i x))

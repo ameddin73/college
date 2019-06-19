@@ -1,0 +1,3 @@
+apply : (forall ('a 'b) (('a -> 'b) 'a -> 'b))
+apply@int&int : ((int -> int) int -> int)
+24 : int

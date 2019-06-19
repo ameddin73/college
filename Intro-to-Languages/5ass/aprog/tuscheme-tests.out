@@ -1,0 +1,147 @@
+val-int
+test-E:01-val-int FAIL (soln.tychk <> tychk)
+test-E:02-val-int FAIL (soln.tychk <> tychk)
+val-int FAIL
+val-bool
+test-F:01-val-bool FAIL (soln.tychk <> tychk)
+test-F:02-val-bool FAIL (soln.tychk <> tychk)
+val-bool FAIL
+val-sym
+test-G:01-val-sym FAIL (soln.tychk <> tychk)
+test-G:02-val-sym FAIL (soln.tychk <> tychk)
+val-sym FAIL
+val
+test-H:01-val FAIL (soln.tychk <> tychk)
+test-H:02-val FAIL (soln.tychk <> tychk)
+test-H:03-val FAIL (soln.tychk <> tychk)
+test-H:04-val FAIL (soln.tychk <> tychk)
+val FAIL
+if
+test-I:01-if FAIL (soln.tychk <> tychk)
+test-I:02-if FAIL (soln.tychk <> tychk)
+test-I:03-if FAIL (soln.tyerr; tychk)
+test-I:04-if FAIL (soln.tyerr; tychk)
+test-I:05-if FAIL (soln.tyerr; tychk)
+test-I:06-if FAIL (soln.tychk <> tychk)
+if FAIL
+val-var
+test-J:01-val-var FAIL (soln.tychk <> tychk)
+test-J:02-val-var FAIL (soln.tyerr; tychk)
+test-J:03-val-var FAIL (soln.tychk <> tychk)
+val-var FAIL
+let
+test-K:01-let FAIL (soln.tychk <> tychk)
+test-K:02-let FAIL (soln.tychk <> tychk)
+test-K:03-let FAIL (soln.tychk <> tychk)
+test-K:04-let FAIL (soln.tyerr; tychk)
+let FAIL
+lambda
+test-L:01-lambda FAIL (soln.tychk <> tychk)
+test-L:02-lambda FAIL (soln.tychk <> tychk)
+test-L:03-lambda FAIL (soln.tychk <> tychk)
+test-L:04-lambda FAIL (soln.tychk <> tychk)
+test-L:05-lambda FAIL (soln.tychk <> tychk)
+test-L:06-lambda FAIL (soln.tychk <> tychk)
+test-L:07-lambda FAIL (soln.tychk <> tychk)
+test-L:08-lambda FAIL (soln.tychk <> tychk)
+test-L:09-lambda FAIL (soln.tychk <> tychk)
+test-L:10-lambda FAIL (soln.tychk <> tychk)
+test-L:11-lambda FAIL (soln.tychk <> tychk)
+test-L:12-lambda FAIL (soln.tychk <> tychk)
+test-L:13-lambda FAIL (soln.tychk <> tychk)
+test-L:14-lambda FAIL (soln.tyerr; tychk)
+test-L:15-lambda FAIL (soln.tyerr; tychk)
+test-L:16-lambda FAIL (soln.tyerr; tychk)
+test-L:17-lambda FAIL (soln.tyerr; tychk)
+test-L:18-lambda FAIL (soln.tychk <> tychk)
+test-L:19-lambda FAIL (soln.tychk <> tychk)
+test-L:20-lambda FAIL (soln.tychk <> tychk)
+test-L:21-lambda FAIL (soln.tychk <> tychk)
+test-L:22-lambda FAIL (soln.tychk <> tychk)
+test-L:23-lambda FAIL (soln.tychk <> tychk)
+test-L:24-lambda FAIL (soln.tychk <> tychk)
+lambda FAIL
+apply
+test-M:01-apply FAIL (soln.tychk <> tychk)
+test-M:02-apply FAIL (soln.tychk <> tychk)
+test-M:03-apply FAIL (soln.tychk <> tychk)
+test-M:04-apply FAIL (soln.tyerr; tychk)
+test-M:05-apply FAIL (soln.tyerr; tychk)
+test-M:06-apply FAIL (soln.tyerr; tychk)
+test-M:07-apply FAIL (soln.tyerr; tychk)
+apply FAIL
+valrec
+test-N:01-valrec FAIL (soln.tychk <> tychk)
+test-N:02-valrec FAIL (soln.tychk <> tychk)
+test-N:03-valrec FAIL (soln.tyerr; tychk)
+test-N:04-valrec FAIL (soln.tychk <> tychk)
+test-N:05-valrec FAIL (soln.tychk <> tychk)
+test-N:06-valrec FAIL (soln.tyerr; tychk)
+test-N:07-valrec FAIL (soln.tyerr; tychk)
+test-N:08-valrec FAIL (soln.tyerr; tychk)
+valrec FAIL
+define
+test-O:01-define FAIL (soln.tychk <> tychk)
+test-O:02-define FAIL (soln.tychk <> tychk)
+test-O:03-define FAIL (soln.tychk <> tychk)
+test-O:04-define FAIL (soln.tychk <> tychk)
+test-O:05-define FAIL (soln.tychk <> tychk)
+define FAIL
+set
+test-P:01-set FAIL (soln.tychk <> tychk)
+test-P:02-set FAIL (soln.tyerr; tychk)
+test-P:03-set FAIL (soln.tychk <> tychk)
+test-P:04-set FAIL (soln.tyerr; tychk)
+test-P:05-set FAIL (soln.tyerr; tychk)
+set FAIL
+while
+test-Q:01-while FAIL (soln.tychk <> tychk)
+test-Q:02-while FAIL (soln.tyerr; tychk)
+test-Q:03-while FAIL (soln.tyerr; tychk)
+while FAIL
+begin
+test-R:01-begin FAIL (soln.tychk <> tychk)
+test-R:02-begin FAIL (soln.tychk <> tychk)
+test-R:03-begin FAIL (soln.tychk <> tychk)
+test-R:04-begin FAIL (soln.tyerr; tychk)
+begin FAIL
+nil
+test-S:01-nil FAIL (soln.tychk <> tychk)
+nil FAIL
+pair
+test-T:01-pair FAIL (soln.tychk <> tychk)
+test-T:02-pair FAIL (soln.tychk <> tychk)
+test-T:03-pair FAIL (soln.tychk <> tychk)
+test-T:04-pair FAIL (soln.tychk <> tychk)
+test-T:05-pair FAIL (soln.tychk <> tychk)
+test-T:06-pair FAIL (soln.tyerr; tychk)
+pair FAIL
+tylambda
+test-U:01-tylambda FAIL (soln.tychk <> tychk)
+test-U:02-tylambda FAIL (soln.tychk <> tychk)
+test-U:03-tylambda FAIL (soln.tychk <> tychk)
+test-U:04-tylambda FAIL (soln.tychk <> tychk)
+test-U:05-tylambda FAIL (soln.tychk <> tychk)
+test-U:06-tylambda FAIL (soln.tychk <> tychk)
+test-U:07-tylambda FAIL (soln.tychk <> tychk)
+test-U:08-tylambda FAIL (soln.tyerr; tychk)
+test-U:09-tylambda FAIL (soln.tychk <> tychk)
+tylambda FAIL
+tyapply
+test-V:01-tyapply FAIL (soln.tychk <> tychk)
+test-V:02-tyapply FAIL (soln.tychk <> tychk)
+test-V:03-tyapply FAIL (soln.tychk <> tychk)
+test-V:04-tyapply FAIL (soln.tychk <> tychk)
+test-V:05-tyapply FAIL (soln.tychk <> tychk)
+test-V:06-tyapply FAIL (soln.tychk <> tychk)
+test-V:07-tyapply FAIL (soln.tychk <> tychk)
+test-V:08-tyapply FAIL (soln.tyerr; tychk)
+test-V:09-tyapply FAIL (soln.tyerr; tychk)
+test-V:10-tyapply FAIL (soln.tyerr; tychk)
+test-V:11-tyapply FAIL (soln.tyerr; tychk)
+test-V:12-tyapply FAIL (soln.tyerr; tychk)
+test-V:13-tyapply FAIL (soln.tyerr; tychk)
+tyapply FAIL
+basis
+test-W:01-basis FAIL (soln.tychk <> tychk)
+basis FAIL

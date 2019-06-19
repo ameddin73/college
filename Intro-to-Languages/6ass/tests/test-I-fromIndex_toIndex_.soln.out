@@ -1,0 +1,211 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+Testing xv02
+Testing xv03
+Testing xv04
+(fromIndex:toIndex: xv04 1 1) => << 1 >>
+(fromIndex:toIndex: xv04 1 2) => << 1 2 >>
+(fromIndex:toIndex: xv04 1 3) => << 1 2 3 >>
+(fromIndex:toIndex: xv04 1 5) => << 1 2 3 4 5 >>
+(fromIndex:toIndex: xv04 2 2) => << 2 >>
+(fromIndex:toIndex: xv04 2 4) => << 2 3 4 >>
+(fromIndex:toIndex: xv04 -1 -1) => << 6 >>
+(fromIndex:toIndex: xv04 -2 -1) => << 5 6 >>
+(fromIndex:toIndex: xv04 -3 -1) => << 4 5 6 >>
+(fromIndex:toIndex: xv04 -5 -1) => << 2 3 4 5 6 >>
+(fromIndex:toIndex: xv04 -2 -2) => << 5 >>
+(fromIndex:toIndex: xv04 -4 -2) => << 3 4 5 >>
+(fromIndex:toIndex: xv04 -1 1) => << 6 1 >>
+(fromIndex:toIndex: xv04 -2 2) => << 5 6 1 2 >>
+(fromIndex:toIndex: xv04 -3 3) => << 4 5 6 1 2 3 >>
+(fromIndex:toIndex: xv04 -4 4) => << 3 4 >>
+(fromIndex:toIndex: xv04 -5 5) => << 2 3 4 5 >>
+Testing xv05
+Testing xv06
+Testing xv07
+(fromIndex:toIndex: xv07 1 1) => << -6 >>
+(fromIndex:toIndex: xv07 1 2) => << -6 -5 >>
+(fromIndex:toIndex: xv07 1 3) => << -6 -5 -4 >>
+(fromIndex:toIndex: xv07 1 5) => << -6 -5 -4 -3 -2 >>
+(fromIndex:toIndex: xv07 2 2) => << -5 >>
+(fromIndex:toIndex: xv07 2 4) => << -5 -4 -3 >>
+(fromIndex:toIndex: xv07 -1 -1) => << -1 >>
+(fromIndex:toIndex: xv07 -2 -1) => << -2 -1 >>
+(fromIndex:toIndex: xv07 -3 -1) => << -3 -2 -1 >>
+(fromIndex:toIndex: xv07 -5 -1) => << -5 -4 -3 -2 -1 >>
+(fromIndex:toIndex: xv07 -2 -2) => << -2 >>
+(fromIndex:toIndex: xv07 -4 -2) => << -4 -3 -2 >>
+(fromIndex:toIndex: xv07 -1 1) => << -1 -6 >>
+(fromIndex:toIndex: xv07 -2 2) => << -2 -1 -6 -5 >>
+(fromIndex:toIndex: xv07 -3 3) => << -3 -2 -1 -6 -5 -4 >>
+(fromIndex:toIndex: xv07 -4 4) => << -4 -3 >>
+(fromIndex:toIndex: xv07 -5 5) => << -5 -4 -3 -2 >>
+Testing xv08
+(fromIndex:toIndex: xv08 1 1) => << 1 >>
+(fromIndex:toIndex: xv08 1 2) => << 1 2 >>
+(fromIndex:toIndex: xv08 1 3) => << 1 2 3 >>
+(fromIndex:toIndex: xv08 1 5) => << 1 2 3 4 5 >>
+(fromIndex:toIndex: xv08 2 2) => << 2 >>
+(fromIndex:toIndex: xv08 2 4) => << 2 3 4 >>
+(fromIndex:toIndex: xv08 -1 -1) => << 15 >>
+(fromIndex:toIndex: xv08 -2 -1) => << 14 15 >>
+(fromIndex:toIndex: xv08 -3 -1) => << 13 14 15 >>
+(fromIndex:toIndex: xv08 -5 -1) => << 11 12 13 14 15 >>
+(fromIndex:toIndex: xv08 -2 -2) => << 14 >>
+(fromIndex:toIndex: xv08 -4 -2) => << 12 13 14 >>
+(fromIndex:toIndex: xv08 -1 1) => << 15 1 >>
+(fromIndex:toIndex: xv08 -2 2) => << 14 15 1 2 >>
+(fromIndex:toIndex: xv08 -3 3) => << 13 14 15 1 2 3 >>
+(fromIndex:toIndex: xv08 -4 4) => << 12 13 14 15 1 2 3 4 >>
+(fromIndex:toIndex: xv08 -5 5) => << 11 12 13 14 15 1 2 3 4 5 >>
+Testing xv09
+(fromIndex:toIndex: xv09 1 1) => << 1 >>
+(fromIndex:toIndex: xv09 1 2) => << 1 4 >>
+(fromIndex:toIndex: xv09 1 3) => << 1 4 9 >>
+(fromIndex:toIndex: xv09 1 5) => << 1 4 9 16 25 >>
+(fromIndex:toIndex: xv09 2 2) => << 4 >>
+(fromIndex:toIndex: xv09 2 4) => << 4 9 16 >>
+(fromIndex:toIndex: xv09 -1 -1) => << 8 >>
+(fromIndex:toIndex: xv09 -2 -1) => << 10 8 >>
+(fromIndex:toIndex: xv09 -3 -1) => << 14 10 8 >>
+(fromIndex:toIndex: xv09 -5 -1) => << 28 20 14 10 8 >>
+(fromIndex:toIndex: xv09 -2 -2) => << 10 >>
+(fromIndex:toIndex: xv09 -4 -2) => << 20 14 10 >>
+(fromIndex:toIndex: xv09 -1 1) => << 8 1 >>
+(fromIndex:toIndex: xv09 -2 2) => << 10 8 1 4 >>
+(fromIndex:toIndex: xv09 -3 3) => << 14 10 8 1 4 9 >>
+(fromIndex:toIndex: xv09 -4 4) => << 20 14 10 8 1 4 9 16 >>
+(fromIndex:toIndex: xv09 -5 5) => << 28 20 14 10 8 1 4 9 16 25 >>
+Testing xv10
+Testing xv11
+(fromIndex:toIndex: xv11 1 1) => << 1/2 >>
+(fromIndex:toIndex: xv11 1 2) => << 1/2 4/1 >>
+(fromIndex:toIndex: xv11 1 3) => << 1/2 4/1 1/6 >>
+(fromIndex:toIndex: xv11 1 5) => << 1/2 4/1 1/6 8/1 1/10 >>
+(fromIndex:toIndex: xv11 2 2) => << 4/1 >>
+(fromIndex:toIndex: xv11 2 4) => << 4/1 1/6 8/1 >>
+(fromIndex:toIndex: xv11 -1 -1) => << 20/1 >>
+(fromIndex:toIndex: xv11 -2 -1) => << 1/18 20/1 >>
+(fromIndex:toIndex: xv11 -3 -1) => << 16/1 1/18 20/1 >>
+(fromIndex:toIndex: xv11 -5 -1) => << 12/1 1/14 16/1 1/18 20/1 >>
+(fromIndex:toIndex: xv11 -2 -2) => << 1/18 >>
+(fromIndex:toIndex: xv11 -4 -2) => << 1/14 16/1 1/18 >>
+(fromIndex:toIndex: xv11 -1 1) => << 20/1 1/2 >>
+(fromIndex:toIndex: xv11 -2 2) => << 1/18 20/1 1/2 4/1 >>
+(fromIndex:toIndex: xv11 -3 3) => << 16/1 1/18 20/1 1/2 4/1 1/6 >>
+(fromIndex:toIndex: xv11 -4 4) => << 1/14 16/1 1/18 20/1 1/2 4/1 1/6 8/1 >>
+(fromIndex:toIndex: xv11 -5 5) => << 12/1 1/14 16/1 1/18 20/1 1/2 4/1 1/6 8/1 1/10 >>
+Testing xv12
+Testing xv13
+<class Array>
+Testing xv01
+Testing xv02
+Testing xv03
+Testing xv04
+(fromIndex:toIndex: xv04 1 1) => << 1 >>
+(fromIndex:toIndex: xv04 1 2) => << 1 2 >>
+(fromIndex:toIndex: xv04 1 3) => << 1 2 3 >>
+(fromIndex:toIndex: xv04 1 5) => << 1 2 3 4 5 >>
+(fromIndex:toIndex: xv04 2 2) => << 2 >>
+(fromIndex:toIndex: xv04 2 4) => << 2 3 4 >>
+(fromIndex:toIndex: xv04 -1 -1) => << 6 >>
+(fromIndex:toIndex: xv04 -2 -1) => << 5 6 >>
+(fromIndex:toIndex: xv04 -3 -1) => << 4 5 6 >>
+(fromIndex:toIndex: xv04 -5 -1) => << 2 3 4 5 6 >>
+(fromIndex:toIndex: xv04 -2 -2) => << 5 >>
+(fromIndex:toIndex: xv04 -4 -2) => << 3 4 5 >>
+(fromIndex:toIndex: xv04 -1 1) => << 6 1 >>
+(fromIndex:toIndex: xv04 -2 2) => << 5 6 1 2 >>
+(fromIndex:toIndex: xv04 -3 3) => << 4 5 6 1 2 3 >>
+(fromIndex:toIndex: xv04 -4 4) => << 3 4 >>
+(fromIndex:toIndex: xv04 -5 5) => << 2 3 4 5 >>
+Testing xv05
+Testing xv06
+Testing xv07
+(fromIndex:toIndex: xv07 1 1) => << -6 >>
+(fromIndex:toIndex: xv07 1 2) => << -6 -5 >>
+(fromIndex:toIndex: xv07 1 3) => << -6 -5 -4 >>
+(fromIndex:toIndex: xv07 1 5) => << -6 -5 -4 -3 -2 >>
+(fromIndex:toIndex: xv07 2 2) => << -5 >>
+(fromIndex:toIndex: xv07 2 4) => << -5 -4 -3 >>
+(fromIndex:toIndex: xv07 -1 -1) => << -1 >>
+(fromIndex:toIndex: xv07 -2 -1) => << -2 -1 >>
+(fromIndex:toIndex: xv07 -3 -1) => << -3 -2 -1 >>
+(fromIndex:toIndex: xv07 -5 -1) => << -5 -4 -3 -2 -1 >>
+(fromIndex:toIndex: xv07 -2 -2) => << -2 >>
+(fromIndex:toIndex: xv07 -4 -2) => << -4 -3 -2 >>
+(fromIndex:toIndex: xv07 -1 1) => << -1 -6 >>
+(fromIndex:toIndex: xv07 -2 2) => << -2 -1 -6 -5 >>
+(fromIndex:toIndex: xv07 -3 3) => << -3 -2 -1 -6 -5 -4 >>
+(fromIndex:toIndex: xv07 -4 4) => << -4 -3 >>
+(fromIndex:toIndex: xv07 -5 5) => << -5 -4 -3 -2 >>
+Testing xv08
+(fromIndex:toIndex: xv08 1 1) => << 1 >>
+(fromIndex:toIndex: xv08 1 2) => << 1 2 >>
+(fromIndex:toIndex: xv08 1 3) => << 1 2 3 >>
+(fromIndex:toIndex: xv08 1 5) => << 1 2 3 4 5 >>
+(fromIndex:toIndex: xv08 2 2) => << 2 >>
+(fromIndex:toIndex: xv08 2 4) => << 2 3 4 >>
+(fromIndex:toIndex: xv08 -1 -1) => << 15 >>
+(fromIndex:toIndex: xv08 -2 -1) => << 14 15 >>
+(fromIndex:toIndex: xv08 -3 -1) => << 13 14 15 >>
+(fromIndex:toIndex: xv08 -5 -1) => << 11 12 13 14 15 >>
+(fromIndex:toIndex: xv08 -2 -2) => << 14 >>
+(fromIndex:toIndex: xv08 -4 -2) => << 12 13 14 >>
+(fromIndex:toIndex: xv08 -1 1) => << 15 1 >>
+(fromIndex:toIndex: xv08 -2 2) => << 14 15 1 2 >>
+(fromIndex:toIndex: xv08 -3 3) => << 13 14 15 1 2 3 >>
+(fromIndex:toIndex: xv08 -4 4) => << 12 13 14 15 1 2 3 4 >>
+(fromIndex:toIndex: xv08 -5 5) => << 11 12 13 14 15 1 2 3 4 5 >>
+Testing xv09
+(fromIndex:toIndex: xv09 1 1) => << 1 >>
+(fromIndex:toIndex: xv09 1 2) => << 1 4 >>
+(fromIndex:toIndex: xv09 1 3) => << 1 4 9 >>
+(fromIndex:toIndex: xv09 1 5) => << 1 4 9 16 25 >>
+(fromIndex:toIndex: xv09 2 2) => << 4 >>
+(fromIndex:toIndex: xv09 2 4) => << 4 9 16 >>
+(fromIndex:toIndex: xv09 -1 -1) => << 8 >>
+(fromIndex:toIndex: xv09 -2 -1) => << 10 8 >>
+(fromIndex:toIndex: xv09 -3 -1) => << 14 10 8 >>
+(fromIndex:toIndex: xv09 -5 -1) => << 28 20 14 10 8 >>
+(fromIndex:toIndex: xv09 -2 -2) => << 10 >>
+(fromIndex:toIndex: xv09 -4 -2) => << 20 14 10 >>
+(fromIndex:toIndex: xv09 -1 1) => << 8 1 >>
+(fromIndex:toIndex: xv09 -2 2) => << 10 8 1 4 >>
+(fromIndex:toIndex: xv09 -3 3) => << 14 10 8 1 4 9 >>
+(fromIndex:toIndex: xv09 -4 4) => << 20 14 10 8 1 4 9 16 >>
+(fromIndex:toIndex: xv09 -5 5) => << 28 20 14 10 8 1 4 9 16 25 >>
+Testing xv10
+Testing xv11
+(fromIndex:toIndex: xv11 1 1) => << 1/2 >>
+(fromIndex:toIndex: xv11 1 2) => << 1/2 4/1 >>
+(fromIndex:toIndex: xv11 1 3) => << 1/2 4/1 1/6 >>
+(fromIndex:toIndex: xv11 1 5) => << 1/2 4/1 1/6 8/1 1/10 >>
+(fromIndex:toIndex: xv11 2 2) => << 4/1 >>
+(fromIndex:toIndex: xv11 2 4) => << 4/1 1/6 8/1 >>
+(fromIndex:toIndex: xv11 -1 -1) => << 20/1 >>
+(fromIndex:toIndex: xv11 -2 -1) => << 1/18 20/1 >>
+(fromIndex:toIndex: xv11 -3 -1) => << 16/1 1/18 20/1 >>
+(fromIndex:toIndex: xv11 -5 -1) => << 12/1 1/14 16/1 1/18 20/1 >>
+(fromIndex:toIndex: xv11 -2 -2) => << 1/18 >>
+(fromIndex:toIndex: xv11 -4 -2) => << 1/14 16/1 1/18 >>
+(fromIndex:toIndex: xv11 -1 1) => << 20/1 1/2 >>
+(fromIndex:toIndex: xv11 -2 2) => << 1/18 20/1 1/2 4/1 >>
+(fromIndex:toIndex: xv11 -3 3) => << 16/1 1/18 20/1 1/2 4/1 1/6 >>
+(fromIndex:toIndex: xv11 -4 4) => << 1/14 16/1 1/18 20/1 1/2 4/1 1/6 8/1 >>
+(fromIndex:toIndex: xv11 -5 5) => << 12/1 1/14 16/1 1/18 20/1 1/2 4/1 1/6 8/1 1/10 >>
+Testing xv12
+Testing xv13
+<class Array>

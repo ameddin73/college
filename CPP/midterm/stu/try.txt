@@ -1,0 +1,13 @@
+# These are the individual try commands in case you mistype them
+
+1. try grd-541cpp lab11-1 bike.cpp header.mak
+
+2. try grd-541cpp lab12-1 matrix.cpp header.mak
+
+3. try grd-541cpp lab13-1 thingamajig.h thingamajig.cpp header.mak
+
+4. try grd-541cpp lab14-1 pair.h header.mak
+
+5. try grd-541cpp lab15-1 crap.h crap.cpp infomercial_main.cpp schticky.cpp schticky.h header.mak
+
+6. try grd-541cpp lab16-1 words_main.cpp header.mak

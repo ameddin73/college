@@ -1,0 +1,3 @@
+snd : (forall ('a 'b) ('a 'b -> 'b))
+snd@int&bool : (int bool -> bool)
+#t : bool

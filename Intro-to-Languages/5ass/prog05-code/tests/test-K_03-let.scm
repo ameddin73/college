@@ -1,0 +1,5 @@
+(val x 1)
+(val ans (let ((x #t)
+               (y x)
+               (z x))
+           (if x y z)))

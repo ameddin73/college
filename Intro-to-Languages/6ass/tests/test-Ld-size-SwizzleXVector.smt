@@ -1,0 +1,7 @@
+(test-size (xv:name:-no-init XVectorTester sxv01 #sxv01))
+(test-size (xv:name:-no-init XVectorTester sxv02 #sxv02))
+(test-size (xv:name:-no-init XVectorTester sxv03 #sxv03))
+(test-size (xv:name:-no-init XVectorTester sxv04 #sxv04))
+(test-size (xv:name:-no-init XVectorTester sxv05 #sxv05))
+(test-size (xv:name:-no-init XVectorTester sxv06 #sxv06))
+(test-size (xv:name:-no-init XVectorTester sxv07 #sxv07))

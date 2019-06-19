@@ -1,0 +1,246 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+(= xv01 nil) => <False>
+(= xv01 <True>) => <False>
+(= xv01 <False>) => <False>
+(= xv01 0) => <False>
+(= xv01 1) => <False>
+(= xv01 2) => <False>
+(= xv01 42) => <False>
+(= xv01 xv01) => <True>
+(= xv01 xv02) => <False>
+(= xv01 xv03) => <False>
+(= xv01 xv04) => <False>
+(= xv01 xv05) => <False>
+(= xv01 xv06) => <False>
+(= xv01 xv07) => <False>
+(= xv01 xv08) => <False>
+(= xv01 xv09) => <False>
+(= xv01 xv10) => <False>
+(= xv01 xv11) => <False>
+(= xv01 xv12) => <False>
+(= xv01 xv13) => <False>
+Testing xv02
+(= xv02 nil) => <False>
+(= xv02 <True>) => <False>
+(= xv02 <False>) => <False>
+(= xv02 0) => <False>
+(= xv02 1) => <False>
+(= xv02 2) => <False>
+(= xv02 42) => <False>
+(= xv02 xv01) => <False>
+(= xv02 xv02) => <True>
+(= xv02 xv03) => <False>
+(= xv02 xv04) => <False>
+(= xv02 xv05) => <False>
+(= xv02 xv06) => <False>
+(= xv02 xv07) => <False>
+(= xv02 xv08) => <False>
+(= xv02 xv09) => <False>
+(= xv02 xv12) => <False>
+(= xv02 xv13) => <False>
+Testing xv03
+(= xv03 nil) => <False>
+(= xv03 <True>) => <False>
+(= xv03 <False>) => <False>
+(= xv03 0) => <False>
+(= xv03 1) => <False>
+(= xv03 2) => <False>
+(= xv03 42) => <False>
+(= xv03 xv01) => <False>
+(= xv03 xv02) => <False>
+(= xv03 xv03) => <True>
+(= xv03 xv04) => <False>
+(= xv03 xv05) => <False>
+(= xv03 xv06) => <False>
+(= xv03 xv07) => <False>
+(= xv03 xv08) => <False>
+(= xv03 xv09) => <False>
+(= xv03 xv12) => <False>
+(= xv03 xv13) => <False>
+Testing xv04
+(= xv04 nil) => <False>
+(= xv04 <True>) => <False>
+(= xv04 <False>) => <False>
+(= xv04 0) => <False>
+(= xv04 1) => <False>
+(= xv04 2) => <False>
+(= xv04 42) => <False>
+(= xv04 xv01) => <False>
+(= xv04 xv02) => <False>
+(= xv04 xv03) => <False>
+(= xv04 xv04) => <True>
+(= xv04 xv05) => <False>
+(= xv04 xv06) => <False>
+(= xv04 xv07) => <False>
+(= xv04 xv08) => <False>
+(= xv04 xv09) => <False>
+(= xv04 xv12) => <False>
+(= xv04 xv13) => <False>
+Testing xv05
+(= xv05 nil) => <False>
+(= xv05 <True>) => <False>
+(= xv05 <False>) => <False>
+(= xv05 0) => <False>
+(= xv05 1) => <False>
+(= xv05 2) => <False>
+(= xv05 42) => <False>
+(= xv05 xv01) => <False>
+(= xv05 xv02) => <False>
+(= xv05 xv03) => <False>
+(= xv05 xv04) => <False>
+(= xv05 xv05) => <True>
+(= xv05 xv06) => <False>
+(= xv05 xv07) => <False>
+(= xv05 xv08) => <False>
+(= xv05 xv09) => <False>
+(= xv05 xv12) => <False>
+(= xv05 xv13) => <False>
+Testing xv06
+(= xv06 nil) => <False>
+(= xv06 <True>) => <False>
+(= xv06 <False>) => <False>
+(= xv06 0) => <False>
+(= xv06 1) => <False>
+(= xv06 2) => <False>
+(= xv06 42) => <False>
+(= xv06 xv01) => <False>
+(= xv06 xv02) => <False>
+(= xv06 xv03) => <False>
+(= xv06 xv04) => <False>
+(= xv06 xv05) => <False>
+(= xv06 xv06) => <True>
+(= xv06 xv07) => <False>
+(= xv06 xv08) => <False>
+(= xv06 xv09) => <False>
+(= xv06 xv12) => <False>
+(= xv06 xv13) => <False>
+Testing xv07
+(= xv07 nil) => <False>
+(= xv07 <True>) => <False>
+(= xv07 <False>) => <False>
+(= xv07 0) => <False>
+(= xv07 1) => <False>
+(= xv07 2) => <False>
+(= xv07 42) => <False>
+(= xv07 xv01) => <False>
+(= xv07 xv02) => <False>
+(= xv07 xv03) => <False>
+(= xv07 xv04) => <False>
+(= xv07 xv05) => <False>
+(= xv07 xv06) => <False>
+(= xv07 xv07) => <True>
+(= xv07 xv08) => <False>
+(= xv07 xv09) => <False>
+(= xv07 xv12) => <False>
+(= xv07 xv13) => <False>
+Testing xv08
+(= xv08 nil) => <False>
+(= xv08 <True>) => <False>
+(= xv08 <False>) => <False>
+(= xv08 0) => <False>
+(= xv08 1) => <False>
+(= xv08 2) => <False>
+(= xv08 42) => <False>
+(= xv08 xv01) => <False>
+(= xv08 xv02) => <False>
+(= xv08 xv03) => <False>
+(= xv08 xv04) => <False>
+(= xv08 xv05) => <False>
+(= xv08 xv06) => <False>
+(= xv08 xv07) => <False>
+(= xv08 xv08) => <True>
+(= xv08 xv09) => <False>
+(= xv08 xv12) => <False>
+(= xv08 xv13) => <False>
+Testing xv09
+(= xv09 nil) => <False>
+(= xv09 <True>) => <False>
+(= xv09 <False>) => <False>
+(= xv09 0) => <False>
+(= xv09 1) => <False>
+(= xv09 2) => <False>
+(= xv09 42) => <False>
+(= xv09 xv01) => <False>
+(= xv09 xv02) => <False>
+(= xv09 xv03) => <False>
+(= xv09 xv04) => <False>
+(= xv09 xv05) => <False>
+(= xv09 xv06) => <False>
+(= xv09 xv07) => <False>
+(= xv09 xv08) => <False>
+(= xv09 xv09) => <True>
+(= xv09 xv12) => <False>
+(= xv09 xv13) => <False>
+Testing xv10
+(= xv10 nil) => <False>
+(= xv10 <True>) => <False>
+(= xv10 <False>) => <False>
+(= xv10 0) => <False>
+(= xv10 1) => <False>
+(= xv10 2) => <False>
+(= xv10 42) => <False>
+(= xv10 xv01) => <False>
+(= xv10 xv10) => <True>
+(= xv10 xv11) => <False>
+Testing xv11
+(= xv11 nil) => <False>
+(= xv11 <True>) => <False>
+(= xv11 <False>) => <False>
+(= xv11 0) => <False>
+(= xv11 1) => <False>
+(= xv11 2) => <False>
+(= xv11 42) => <False>
+(= xv11 xv01) => <False>
+(= xv11 xv10) => <False>
+(= xv11 xv11) => <True>
+Testing xv12
+(= xv12 nil) => <False>
+(= xv12 <True>) => <False>
+(= xv12 <False>) => <False>
+(= xv12 0) => <False>
+(= xv12 1) => <False>
+(= xv12 2) => <False>
+(= xv12 42) => <False>
+(= xv12 xv01) => <False>
+(= xv12 xv02) => <False>
+(= xv12 xv03) => <False>
+(= xv12 xv04) => <False>
+(= xv12 xv05) => <False>
+(= xv12 xv06) => <False>
+(= xv12 xv07) => <False>
+(= xv12 xv08) => <False>
+(= xv12 xv09) => <False>
+(= xv12 xv12) => <True>
+(= xv12 xv13) => <False>
+Testing xv13
+(= xv13 nil) => <False>
+(= xv13 <True>) => <False>
+(= xv13 <False>) => <False>
+(= xv13 0) => <False>
+(= xv13 1) => <False>
+(= xv13 2) => <False>
+(= xv13 42) => <False>
+(= xv13 xv01) => <False>
+(= xv13 xv02) => <False>
+(= xv13 xv03) => <False>
+(= xv13 xv04) => <False>
+(= xv13 xv05) => <False>
+(= xv13 xv06) => <False>
+(= xv13 xv07) => <False>
+(= xv13 xv08) => <False>
+(= xv13 xv09) => <False>
+(= xv13 xv12) => <False>
+(= xv13 xv13) => <True>

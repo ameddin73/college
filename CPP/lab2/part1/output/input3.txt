@@ -1,0 +1,9 @@
+garbage
+sos 1
+vault
+withdraw 0x28E837C5CB41DC3E
+doubloon 0x28E837C5CB41DC3E
+withdraw 0x28E837C5CB41DC3E
+gun 1
+deposit
+quit

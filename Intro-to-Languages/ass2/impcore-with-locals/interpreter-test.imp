@@ -1,0 +1,32 @@
+(define local-test (x) (locals n)
+    (begin
+        (set n 3)
+        (* x n)
+    )
+)
+
+(define return-local (x) (locals n)
+    (begin
+        (set n 12)
+        n
+    )
+)
+
+( define fact ( n ) ( locals ans )
+( begin
+( set ans 1)
+( while
+( > n 1)
+( begin
+( set ans (* ans n ))
+( set n ( - n 1))))
+ans ))
+
+(fact 3)
+
+(return-local 1)
+(local-test 5)
+(local-test 3)
+(local-test 12)
+(check-expect (local-test 3) 9)
+(check-expect (local-test 12) 36)

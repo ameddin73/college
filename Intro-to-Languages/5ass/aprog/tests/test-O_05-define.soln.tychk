@@ -1,0 +1,2 @@
+fib : (int -> int)
+8 : int

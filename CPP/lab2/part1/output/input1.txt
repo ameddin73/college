@@ -1,0 +1,15 @@
+sos 10
+vault
+doubloon 0xFDFD3A7C3E40F98B
+withdraw 0x6C6F1E45458246E8
+withdraw 0x0A213217F032E8B9
+withdraw 0xA1ABD7F3042AE12F
+wallet
+gun 0x8AD330133B0725AC
+ritchie 5
+deposit
+fedora 1
+deposit
+sos 1
+vault
+quit

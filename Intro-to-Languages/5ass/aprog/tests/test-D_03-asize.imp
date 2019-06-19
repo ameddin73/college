@@ -1,0 +1,1 @@
+(define int foo ([a : (array (array int))]) (array-size a))

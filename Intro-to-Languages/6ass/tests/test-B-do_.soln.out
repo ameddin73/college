@@ -1,0 +1,201 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+(print xv01) => << >>
+(detect:ifNone: xv01 negative) => nil
+(detect:ifNone: xv01 positive) => nil
+Testing xv02
+(print xv02) => << 1 >>
+(includes: xv02 nil) => <False>
+(occurrencesOf: xv02 nil) => 0
+(includes: xv02 <True>) => <False>
+(occurrencesOf: xv02 <True>) => 0
+(includes: xv02 <False>) => <False>
+(occurrencesOf: xv02 <False>) => 0
+(includes: xv02 0) => <False>
+(occurrencesOf: xv02 0) => 0
+(includes: xv02 1) => <True>
+(occurrencesOf: xv02 1) => 1
+(includes: xv02 2) => <False>
+(occurrencesOf: xv02 2) => 0
+(includes: xv02 42) => <False>
+(occurrencesOf: xv02 42) => 0
+(detect:ifNone: xv02 negative) => nil
+(detect:ifNone: xv02 positive) => 1
+Testing xv03
+(print xv03) => << 1 2 3 >>
+(includes: xv03 nil) => <False>
+(occurrencesOf: xv03 nil) => 0
+(includes: xv03 <True>) => <False>
+(occurrencesOf: xv03 <True>) => 0
+(includes: xv03 <False>) => <False>
+(occurrencesOf: xv03 <False>) => 0
+(includes: xv03 0) => <False>
+(occurrencesOf: xv03 0) => 0
+(includes: xv03 1) => <True>
+(occurrencesOf: xv03 1) => 1
+(includes: xv03 2) => <True>
+(occurrencesOf: xv03 2) => 1
+(includes: xv03 42) => <False>
+(occurrencesOf: xv03 42) => 0
+(detect:ifNone: xv03 negative) => nil
+(detect:ifNone: xv03 positive) => 1
+Testing xv04
+(print xv04) => << 1 2 3 4 5 6 >>
+(includes: xv04 nil) => <False>
+(occurrencesOf: xv04 nil) => 0
+(includes: xv04 <True>) => <False>
+(occurrencesOf: xv04 <True>) => 0
+(includes: xv04 <False>) => <False>
+(occurrencesOf: xv04 <False>) => 0
+(includes: xv04 0) => <False>
+(occurrencesOf: xv04 0) => 0
+(includes: xv04 1) => <True>
+(occurrencesOf: xv04 1) => 1
+(includes: xv04 2) => <True>
+(occurrencesOf: xv04 2) => 1
+(includes: xv04 42) => <False>
+(occurrencesOf: xv04 42) => 0
+(detect:ifNone: xv04 negative) => nil
+(detect:ifNone: xv04 positive) => 1
+Testing xv05
+(print xv05) => << -6 >>
+(includes: xv05 nil) => <False>
+(occurrencesOf: xv05 nil) => 0
+(includes: xv05 <True>) => <False>
+(occurrencesOf: xv05 <True>) => 0
+(includes: xv05 <False>) => <False>
+(occurrencesOf: xv05 <False>) => 0
+(includes: xv05 0) => <False>
+(occurrencesOf: xv05 0) => 0
+(includes: xv05 1) => <False>
+(occurrencesOf: xv05 1) => 0
+(includes: xv05 2) => <False>
+(occurrencesOf: xv05 2) => 0
+(includes: xv05 42) => <False>
+(occurrencesOf: xv05 42) => 0
+(detect:ifNone: xv05 negative) => -6
+(detect:ifNone: xv05 positive) => nil
+Testing xv06
+(print xv06) => << -6 -5 -4 >>
+(includes: xv06 nil) => <False>
+(occurrencesOf: xv06 nil) => 0
+(includes: xv06 <True>) => <False>
+(occurrencesOf: xv06 <True>) => 0
+(includes: xv06 <False>) => <False>
+(occurrencesOf: xv06 <False>) => 0
+(includes: xv06 0) => <False>
+(occurrencesOf: xv06 0) => 0
+(includes: xv06 1) => <False>
+(occurrencesOf: xv06 1) => 0
+(includes: xv06 2) => <False>
+(occurrencesOf: xv06 2) => 0
+(includes: xv06 42) => <False>
+(occurrencesOf: xv06 42) => 0
+(detect:ifNone: xv06 negative) => -6
+(detect:ifNone: xv06 positive) => nil
+Testing xv07
+(print xv07) => << -6 -5 -4 -3 -2 -1 >>
+(includes: xv07 nil) => <False>
+(occurrencesOf: xv07 nil) => 0
+(includes: xv07 <True>) => <False>
+(occurrencesOf: xv07 <True>) => 0
+(includes: xv07 <False>) => <False>
+(occurrencesOf: xv07 <False>) => 0
+(includes: xv07 0) => <False>
+(occurrencesOf: xv07 0) => 0
+(includes: xv07 1) => <False>
+(occurrencesOf: xv07 1) => 0
+(includes: xv07 2) => <False>
+(occurrencesOf: xv07 2) => 0
+(includes: xv07 42) => <False>
+(occurrencesOf: xv07 42) => 0
+(detect:ifNone: xv07 negative) => -6
+(detect:ifNone: xv07 positive) => nil
+Testing xv08
+(print xv08) => << 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 >>
+(includes: xv08 nil) => <False>
+(occurrencesOf: xv08 nil) => 0
+(includes: xv08 <True>) => <False>
+(occurrencesOf: xv08 <True>) => 0
+(includes: xv08 <False>) => <False>
+(occurrencesOf: xv08 <False>) => 0
+(includes: xv08 0) => <False>
+(occurrencesOf: xv08 0) => 0
+(includes: xv08 1) => <True>
+(occurrencesOf: xv08 1) => 1
+(includes: xv08 2) => <True>
+(occurrencesOf: xv08 2) => 1
+(includes: xv08 42) => <False>
+(occurrencesOf: xv08 42) => 0
+(detect:ifNone: xv08 negative) => nil
+(detect:ifNone: xv08 positive) => 1
+Testing xv09
+(print xv09) => << 1 4 9 16 25 5 18 2 19 7 28 20 14 10 8 >>
+(includes: xv09 nil) => <False>
+(occurrencesOf: xv09 nil) => 0
+(includes: xv09 <True>) => <False>
+(occurrencesOf: xv09 <True>) => 0
+(includes: xv09 <False>) => <False>
+(occurrencesOf: xv09 <False>) => 0
+(includes: xv09 0) => <False>
+(occurrencesOf: xv09 0) => 0
+(includes: xv09 1) => <True>
+(occurrencesOf: xv09 1) => 1
+(includes: xv09 2) => <True>
+(occurrencesOf: xv09 2) => 1
+(includes: xv09 42) => <False>
+(occurrencesOf: xv09 42) => 0
+(detect:ifNone: xv09 negative) => nil
+(detect:ifNone: xv09 positive) => 1
+Testing xv10
+(print xv10) => << 1/1 1/2 1/3 1/4 1/5 >>
+(detect:ifNone: xv10 negative) => nil
+(detect:ifNone: xv10 positive) => 1/1
+Testing xv11
+(print xv11) => << 1/2 4/1 1/6 8/1 1/10 12/1 1/14 16/1 1/18 20/1 >>
+(detect:ifNone: xv11 negative) => nil
+(detect:ifNone: xv11 positive) => 1/2
+Testing xv12
+(print xv12) => << <True> <False> >>
+(includes: xv12 nil) => <False>
+(occurrencesOf: xv12 nil) => 0
+(includes: xv12 <True>) => <True>
+(occurrencesOf: xv12 <True>) => 1
+(includes: xv12 <False>) => <True>
+(occurrencesOf: xv12 <False>) => 1
+(includes: xv12 0) => <False>
+(occurrencesOf: xv12 0) => 0
+(includes: xv12 1) => <False>
+(occurrencesOf: xv12 1) => 0
+(includes: xv12 2) => <False>
+(occurrencesOf: xv12 2) => 0
+(includes: xv12 42) => <False>
+(occurrencesOf: xv12 42) => 0
+Testing xv13
+(print xv13) => << nil >>
+(includes: xv13 nil) => <True>
+(occurrencesOf: xv13 nil) => 1
+(includes: xv13 <True>) => <False>
+(occurrencesOf: xv13 <True>) => 0
+(includes: xv13 <False>) => <False>
+(occurrencesOf: xv13 <False>) => 0
+(includes: xv13 0) => <False>
+(occurrencesOf: xv13 0) => 0
+(includes: xv13 1) => <False>
+(occurrencesOf: xv13 1) => 0
+(includes: xv13 2) => <False>
+(occurrencesOf: xv13 2) => 0
+(includes: xv13 42) => <False>
+(occurrencesOf: xv13 42) => 0

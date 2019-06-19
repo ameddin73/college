@@ -1,0 +1,44 @@
+$ debug
+$ sos 4
+DD: 0x28E837C5CB41DC3E, value: 1 being created!
+DD: 0x28E837C5CB41DC3E, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+DD: 0xFDFD3A7C3E40F98B, value: 1 being created!
+DD: 0xFDFD3A7C3E40F98B, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+DD: 0x0A213217F032E8B9, value: 1 being created!
+DD: 0x0A213217F032E8B9, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+DD: 0x98F56903CEE3FCEE, value: 1 being created!
+DD: 0x98F56903CEE3FCEE, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+$ withdraw 0xFDFD3A7C3E40F98B
+DD: 0xFDFD3A7C3E40F98B, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+DD: 0xFDFD3A7C3E40F98B, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+$ wallet
+DD: 0xFDFD3A7C3E40F98B, value: 1
+$ gun 0x28E837C5CB41DC3E
+DD: 0x28E837C5CB41DC3E, value: 1 being destroyed!
+$ ritchie 5
+$ deposit 
+DD: 0xFDFD3A7C3E40F98B, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+$ fedora 1
+$ sos 1
+DD: 0x8AD330133B0725AC, value: 1 being created!
+DD: 0x8AD330133B0725AC, value: 1 moved from DD: 0x0000000000000000, value: 0!
+DD: 0x0000000000000000, value: 0 being destroyed!
+$ vault
+DD: 0x8AD330133B0725AC, value: 1
+DD: 0x98F56903CEE3FCEE, value: 5
+DD: 0xFDFD3A7C3E40F98B, value: 0
+DD: 0x0A213217F032E8B9, value: 5
+$ quit
+doubloons in vault: 4
+total worth: 11
+DD: 0x8AD330133B0725AC, value: 1 being destroyed!
+DD: 0x98F56903CEE3FCEE, value: 5 being destroyed!
+DD: 0xFDFD3A7C3E40F98B, value: 0 being destroyed!
+DD: 0x0A213217F032E8B9, value: 5 being destroyed!

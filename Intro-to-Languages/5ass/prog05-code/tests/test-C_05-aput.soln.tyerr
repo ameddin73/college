@@ -1,0 +1,1 @@
+type error: Index in array-put expression has type bool, which should be int

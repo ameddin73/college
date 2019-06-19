@@ -1,0 +1,19 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing cxv01
+(debug cxv01) => ConcatXVector(ArrayXVector(( )),ArrayXVector(( )))
+Testing cxv02
+(debug cxv02) => ConcatXVector(ArrayXVector(( 1 2 3 4 5 6 )),ArrayXVector(( -6 -5 -4 -3 -2 -1 )))
+Testing cxv03
+(debug cxv03) => ConcatXVector(ArrayXVector(( -6 -5 -4 )),ArrayXVector(( 1 2 3 )))

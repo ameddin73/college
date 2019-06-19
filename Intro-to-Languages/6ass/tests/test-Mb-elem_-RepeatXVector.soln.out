@@ -1,0 +1,69 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing mxv01
+Testing mxv02
+Testing mxv03
+(elem mxv03 1) => 1
+(elem mxv03 2) => 2
+(elem mxv03 3) => 3
+(elem mxv03 4) => 4
+(elem mxv03 5) => 5
+(elem mxv03 6) => 6
+(elem mxv03 7) => 1
+(elem mxv03 8) => 2
+(elem mxv03 9) => 3
+(elem mxv03 10) => 4
+(elem mxv03 15) => 3
+(elem mxv03 16) => 4
+(elem mxv03 17) => 5
+(elem mxv03 18) => 6
+(elem mxv03 19) => 1
+(elem mxv03 20) => 2
+(elem mxv03 51) => 3
+(elem mxv03 52) => 4
+(elem mxv03 53) => 5
+(elem mxv03 54) => 6
+(elem mxv03 55) => 1
+Testing mxv04
+(elem mxv04 1) => -6
+(elem mxv04 2) => -5
+(elem mxv04 3) => -4
+(elem mxv04 4) => -3
+(elem mxv04 5) => -2
+(elem mxv04 6) => -1
+(elem mxv04 7) => -6
+(elem mxv04 8) => -5
+(elem mxv04 9) => -4
+(elem mxv04 10) => -3
+(elem mxv04 15) => -4
+(elem mxv04 16) => -3
+(elem mxv04 17) => -2
+(elem mxv04 18) => -1
+(elem mxv04 19) => -6
+(elem mxv04 20) => -5
+(elem mxv04 51) => -4
+(elem mxv04 52) => -3
+(elem mxv04 53) => -2
+(elem mxv04 54) => -1
+(elem mxv04 55) => -6
+(elem mxv04 101) => -2
+(elem mxv04 102) => -1
+(elem mxv04 103) => -6
+(elem mxv04 104) => -5
+(elem mxv04 105) => -4
+(elem mxv04 501) => -4
+(elem mxv04 502) => -3
+(elem mxv04 503) => -2
+(elem mxv04 504) => -1
+(elem mxv04 505) => -6

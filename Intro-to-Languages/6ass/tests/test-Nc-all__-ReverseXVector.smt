@@ -1,0 +1,5 @@
+(test-all:: (xv:name: XVectorTester rxv01 #rxv01) xvs ns)
+(test-all:: (xv:name: XVectorTester rxv02 #rxv02) xvs ns)
+(test-all:: (xv:name: XVectorTester rxv03 #rxv03) xvs ns)
+(test-all:: (xv:name: XVectorTester rxv04 #rxv04) xvs ns)
+(test-all:: (xv:name: XVectorTester rxv05 #rxv05) xvs ns)

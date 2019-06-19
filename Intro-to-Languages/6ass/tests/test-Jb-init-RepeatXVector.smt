@@ -1,0 +1,8 @@
+(val mxv01 unit)
+(begin (set mxv01 (withXV:withN: RepeatXVector xv01 10)) (add: xvs mxv01) (add: ns #mxv01) unit)
+(val mxv02 unit)
+(begin (set mxv02 (withXV:withN: RepeatXVector xv04 0)) (add: xvs mxv02) (add: ns #mxv02) unit)
+(val mxv03 unit)
+(begin (set mxv03 (withXV:withN: RepeatXVector xv04 10)) (add: xvs mxv03) (add: ns #mxv03) unit)
+(val mxv04 unit)
+(begin (set mxv04 (withXV:withN: RepeatXVector xv07 100)) (add: xvs mxv04) (add: ns #mxv04) unit)

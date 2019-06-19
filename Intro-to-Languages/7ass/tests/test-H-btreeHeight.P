@@ -1,0 +1,25 @@
+[clause].
+
+btreeHeight_test01(N) :- btreeEx01(BT), btreeHeight(BT, N).
+btreeHeight_test02(N) :- btreeEx02(BT), btreeHeight(BT, N).
+btreeHeight_test03(N) :- btreeEx03(BT), btreeHeight(BT, N).
+btreeHeight_test04(N) :- btreeEx04(BT), btreeHeight(BT, N).
+btreeHeight_test05(N) :- btreeEx05(BT), btreeHeight(BT, N).
+btreeHeight_test06(N) :- btreeEx06(BT), btreeHeight(BT, N).
+btreeHeight_test07(N) :- btreeEx07(BT), btreeHeight(BT, N).
+btreeHeight_test08(N) :- btreeEx08(BT), btreeHeight(BT, N).
+btreeHeight_test09(N) :- btreeEx09(BT), btreeHeight(BT, N).
+btreeHeight_test10(N) :- btreeEx10(BT), btreeHeight(BT, N).
+
+[query].
+
+check_solutions(btreeHeight_test01(N), [[N = 0]]).
+check_solutions(btreeHeight_test02(N), [[N = 1]]).
+check_solutions(btreeHeight_test03(N), [[N = 2]]).
+check_solutions(btreeHeight_test04(N), [[N = 3]]).
+check_solutions(btreeHeight_test05(N), [[N = 3]]).
+check_solutions(btreeHeight_test06(N), [[N = 6]]).
+check_solutions(btreeHeight_test07(N), [[N = 4]]).
+check_solutions(btreeHeight_test08(N), [[N = 2]]).
+check_solutions(btreeHeight_test09(N), [[N = 8]]).
+check_solutions(btreeHeight_test10(N), [[N = 10]]).

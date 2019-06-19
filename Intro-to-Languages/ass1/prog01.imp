@@ -1,0 +1,203 @@
+;; Name: Alex Meddin 
+;; Time spent on assignment: 
+;; Collaborators: N/A
+
+(define abs (n) (if (< n 0) (* -1 n) n))
+(define min (a b) (if (< a b) a b))
+(define max (a b) (if (> a b) a b))
+(define gcd (m n)
+  (if (or (< m 0) (< n 0))
+      (gcd (max m (* -1 m)) (max n (* -1 n)))
+      (if (= n 0)
+          m
+          (gcd n (mod m n)))))
+
+;; Exercise 4
+;; DEFINE sigma HERE
+(define sigma (m n)
+  (begin
+        (if (< m n)
+                (set m (+ m (sigma (+ m 1) n)))
+                m
+        )
+  )
+)
+
+(check-expect (sigma 0 5) 15)
+;;(print (sigma 0 5))
+
+;; Exercise 5a
+;; DEFINE exp HERE
+(define exp (b n)
+    (if (> n 0)
+        (set b (* b (exp b (- n 1))))
+        1
+    )
+)
+
+;; Exercise 5b
+;; DEFINE log HERE
+
+(define logHelper (b m n)
+    (if (<= (exp b n) m)
+        (logHelper b m (+ n 1))
+        (- n 1)
+    )
+)
+
+(define log (b m)
+    (logHelper b m 1)
+)
+
+;; Exercise 6
+;; DEFINE choose HERE
+(define choose (n k)
+    (if (= k 0)
+        1
+        (/ (* n (choose (- n 1) (- k 1))) k)
+    )
+)
+
+(choose 10 5)
+;; Exercise 7
+;; DEFINE fib HERE
+(define fib (n)
+    (if (= n 0)
+        0
+        (if (= n 1)
+            1
+            (+ (fib (- n 1)) (fib (- n 2)))
+        )
+    )
+)
+
+;; Exercise 8a
+;; DEFINE prime? HERE
+(define prime?Helper (n i)
+    (if (>= (/ n 2) i)
+        (if (= (mod n i) 0)
+            0
+            (prime?Helper n (+ i 1))
+        )
+        1
+    )
+)
+
+(define prime? (n)
+    (if (<= n 1)
+        0     
+        (prime?Helper n 2)
+    )
+)
+
+;; Exercise 8b
+;; DEFINE nthprime HERE
+(define nthprimeHelper (n p i)
+    (if (< i n)
+        (if (prime? p)
+            (nthprimeHelper n (+ p 1) (+ i 1))
+            (nthprimeHelper n (+ p 1) i)
+        )
+        (- p 1)
+    )
+)
+
+(define nthprime (n)
+    (nthprimeHelper n 0 0)
+)
+
+;; Exercise 8c
+;; DEFINE sumprimes HERE
+(define sumprimesHelper (n s i)
+    (if (< i n)
+        (begin
+            (set s (+ s (nthprime i)))
+            (sumprimesHelper n s (+ i 1))
+        )
+        (+ s (nthprime i))
+    )
+)
+
+(define sumprimes (n)
+    (sumprimesHelper n 0 1)
+)
+
+;; Exercise 8d
+;; DEFINE relprime? HERE
+(define relprime? (m n)
+    (if (> (gcd m n) 1)
+        0
+        1
+    )
+)
+
+;; Exercise 9a
+;; DEFINE given-positive-all-fours? HERE
+(define given-positive-all-fours? (n)
+    (if (= (mod n 10) 4)
+        (if (= (/ n 10) 0)
+            1
+            (given-positive-all-fours? (/ n 10))
+        )
+        0
+    )
+)
+
+;; Exercise 9b
+;; DEFINE all-fours? HERE
+(define all-fours? (n)
+    (given-positive-all-fours? (abs n))
+)
+
+;; Exercise 9c
+;; DEFINE all-one-digit? HERE
+(define all-one-digit?Helper (n)
+    (if (= n 0)
+        1
+        (if (= (/ n 10) 0)
+            n
+            (if (= (mod n 10) (all-one-digit?Helper (/ n 10)))
+                (mod n 10)
+                0
+            )
+        )
+    )
+)
+
+(define all-one-digit? (n)
+    (if (all-one-digit?Helper (abs n))
+        1
+        0
+    )
+)
+
+;; Exercise 9d
+;; DEFINE increasing-digits? HERE
+(define increasing-digits? (n)
+    (begin
+    (set n (abs n))
+    (if (= n 0)
+        1
+        (if (= (/ n 100) 0)
+            (< (mod (/ n 10) 10) (mod n 10))
+            (if (< (mod (/ n 10) 10) (mod n 10))
+                (increasing-digits? (/ n 10))
+                0
+            )
+        )
+    )
+    )
+)
+
+;; Exercise 10
+;; DEFINE binary HERE
+
+(define binary (n)
+    (if (= n 0)
+        0
+        (if (= n 1)
+            1
+            (+ (mod n 2) (* (binary (/ n 2)) 10))
+        )
+    )
+)

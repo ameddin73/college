@@ -1,0 +1,2 @@
+5 : int
+type error: Condition in while expression has type int, which should be bool

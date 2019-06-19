@@ -1,0 +1,15 @@
+(*recitation 5, partners: Alex Meddin Westley Waligora Igor Kozitski Kamil Bynoe*)
+
+fun sum []  = 0
+    | sum (z::zs) = z + sum zs;
+
+fun revapp [] a = a
+    | revapp (z::zs) x = revapp zs (z::x);
+
+fun reverse x = revapp x [];
+
+fun all f [] = true
+    | all f (x::xs) = f x andalso all f xs;
+
+all (fn x => x < 10) [1,2,3,4,5];
+all (fn x => x < 10) [1,2,3,4,5,20];

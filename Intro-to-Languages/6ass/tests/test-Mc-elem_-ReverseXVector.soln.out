@@ -1,0 +1,34 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing rxv01
+Testing rxv02
+(elem rxv02 1) => 1
+Testing rxv03
+(elem rxv03 1) => 3
+(elem rxv03 2) => 2
+(elem rxv03 3) => 1
+Testing rxv04
+(elem rxv04 1) => 6
+(elem rxv04 2) => 5
+(elem rxv04 3) => 4
+(elem rxv04 4) => 3
+(elem rxv04 5) => 2
+(elem rxv04 6) => 1
+Testing rxv05
+(elem rxv05 1) => -1
+(elem rxv05 2) => -2
+(elem rxv05 3) => -3
+(elem rxv05 4) => -4
+(elem rxv05 5) => -5
+(elem rxv05 6) => -6

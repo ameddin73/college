@@ -1,0 +1,21 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing mxv01
+(debug mxv01) => RepeatXVector(ArrayXVector(( )),10)
+Testing mxv02
+(debug mxv02) => RepeatXVector(ArrayXVector(( 1 2 3 4 5 6 )),0)
+Testing mxv03
+(debug mxv03) => RepeatXVector(ArrayXVector(( 1 2 3 4 5 6 )),10)
+Testing mxv04
+(debug mxv04) => RepeatXVector(ArrayXVector(( -6 -5 -4 -3 -2 -1 )),100)

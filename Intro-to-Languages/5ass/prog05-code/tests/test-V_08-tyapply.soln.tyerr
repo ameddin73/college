@@ -1,0 +1,2 @@
+apply : (forall ('a 'b) (('a -> 'b) 'a -> 'b))
+type error: instantiated polymorphic term at wrong number of types

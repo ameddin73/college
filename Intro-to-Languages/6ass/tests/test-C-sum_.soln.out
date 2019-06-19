@@ -1,0 +1,37 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+(sum xv01) => 0
+Testing xv02
+(sum xv02) => 1
+Testing xv03
+(sum xv03) => 6
+Testing xv04
+(sum xv04) => 21
+Testing xv05
+(sum xv05) => -6
+Testing xv06
+(sum xv06) => -15
+Testing xv07
+(sum xv07) => -21
+Testing xv08
+(sum xv08) => 120
+Testing xv09
+(sum xv09) => 186
+Testing xv10
+(sum xv10) => 137/60
+Testing xv11
+(sum xv11) => 38363/630
+Testing xv12
+Testing xv13

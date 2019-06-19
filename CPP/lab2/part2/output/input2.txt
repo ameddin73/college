@@ -1,0 +1,11 @@
+debug
+sos 4
+withdraw 0xFDFD3A7C3E40F98B
+wallet
+gun 0x28E837C5CB41DC3E
+ritchie 5
+deposit 
+fedora 1
+sos 1
+vault
+quit

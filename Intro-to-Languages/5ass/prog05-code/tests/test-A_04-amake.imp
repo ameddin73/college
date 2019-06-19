@@ -1,0 +1,1 @@
+(val a (make-array (= 0 0) 10))

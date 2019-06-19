@@ -1,0 +1,115 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+(< xv01 xv01) => <False>
+(< xv01 xv02) => <True>
+(< xv01 xv03) => <True>
+(< xv01 xv04) => <True>
+(< xv01 xv05) => <True>
+(< xv01 xv06) => <True>
+(< xv01 xv07) => <True>
+(< xv01 xv08) => <True>
+(< xv01 xv09) => <True>
+(< xv01 xv10) => <True>
+(< xv01 xv11) => <True>
+Testing xv02
+(< xv02 xv01) => <False>
+(< xv02 xv02) => <False>
+(< xv02 xv03) => <True>
+(< xv02 xv04) => <True>
+(< xv02 xv05) => <False>
+(< xv02 xv06) => <False>
+(< xv02 xv07) => <False>
+(< xv02 xv08) => <True>
+(< xv02 xv09) => <True>
+Testing xv03
+(< xv03 xv01) => <False>
+(< xv03 xv02) => <False>
+(< xv03 xv03) => <False>
+(< xv03 xv04) => <True>
+(< xv03 xv05) => <False>
+(< xv03 xv06) => <False>
+(< xv03 xv07) => <False>
+(< xv03 xv08) => <True>
+(< xv03 xv09) => <True>
+Testing xv04
+(< xv04 xv01) => <False>
+(< xv04 xv02) => <False>
+(< xv04 xv03) => <False>
+(< xv04 xv04) => <False>
+(< xv04 xv05) => <False>
+(< xv04 xv06) => <False>
+(< xv04 xv07) => <False>
+(< xv04 xv08) => <True>
+(< xv04 xv09) => <True>
+Testing xv05
+(< xv05 xv01) => <False>
+(< xv05 xv02) => <True>
+(< xv05 xv03) => <True>
+(< xv05 xv04) => <True>
+(< xv05 xv05) => <False>
+(< xv05 xv06) => <True>
+(< xv05 xv07) => <True>
+(< xv05 xv08) => <True>
+(< xv05 xv09) => <True>
+Testing xv06
+(< xv06 xv01) => <False>
+(< xv06 xv02) => <True>
+(< xv06 xv03) => <True>
+(< xv06 xv04) => <True>
+(< xv06 xv05) => <False>
+(< xv06 xv06) => <False>
+(< xv06 xv07) => <True>
+(< xv06 xv08) => <True>
+(< xv06 xv09) => <True>
+Testing xv07
+(< xv07 xv01) => <False>
+(< xv07 xv02) => <True>
+(< xv07 xv03) => <True>
+(< xv07 xv04) => <True>
+(< xv07 xv05) => <False>
+(< xv07 xv06) => <False>
+(< xv07 xv07) => <False>
+(< xv07 xv08) => <True>
+(< xv07 xv09) => <True>
+Testing xv08
+(< xv08 xv01) => <False>
+(< xv08 xv02) => <False>
+(< xv08 xv03) => <False>
+(< xv08 xv04) => <False>
+(< xv08 xv05) => <False>
+(< xv08 xv06) => <False>
+(< xv08 xv07) => <False>
+(< xv08 xv08) => <False>
+(< xv08 xv09) => <True>
+Testing xv09
+(< xv09 xv01) => <False>
+(< xv09 xv02) => <False>
+(< xv09 xv03) => <False>
+(< xv09 xv04) => <False>
+(< xv09 xv05) => <False>
+(< xv09 xv06) => <False>
+(< xv09 xv07) => <False>
+(< xv09 xv08) => <False>
+(< xv09 xv09) => <False>
+Testing xv10
+(< xv10 xv01) => <False>
+(< xv10 xv10) => <False>
+(< xv10 xv11) => <False>
+Testing xv11
+(< xv11 xv01) => <False>
+(< xv11 xv10) => <True>
+(< xv11 xv11) => <False>
+Testing xv12
+Testing xv13

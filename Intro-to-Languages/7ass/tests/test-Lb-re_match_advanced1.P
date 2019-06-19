@@ -1,0 +1,8 @@
+[query].
+
+check_satisfiable(re_match(star(star(char(a))),[])).
+check_satisfiable(re_match(star(star(char(a))),[a])).
+check_satisfiable(re_match(star(star(char(a))),[a,a])).
+check_unsatisfiable(re_match(star(star(char(a))),[a,b,b])).
+check_satisfiable(re_match(star(seq(char(a),char(b))),[a,b,a,b])).
+check_satisfiable(re_match(star(seq(char(a),star(char(b)))),[a,a,b,a,b,b,a,b,b,b])).

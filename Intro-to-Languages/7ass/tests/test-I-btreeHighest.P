@@ -1,0 +1,25 @@
+[clause].
+
+btreeHighest_test01(X) :- btreeEx01(BT), btreeHighest(BT,X).
+btreeHighest_test02(X) :- btreeEx02(BT), btreeHighest(BT,X).
+btreeHighest_test03(X) :- btreeEx03(BT), btreeHighest(BT,X).
+btreeHighest_test04(X) :- btreeEx04(BT), btreeHighest(BT,X).
+btreeHighest_test05(X) :- btreeEx05(BT), btreeHighest(BT,X).
+btreeHighest_test06(X) :- btreeEx06(BT), btreeHighest(BT,X).
+btreeHighest_test07(X) :- btreeEx07(BT), btreeHighest(BT,X).
+btreeHighest_test08(X) :- btreeEx08(BT), btreeHighest(BT,X).
+btreeHighest_test09(X) :- btreeEx09(BT), btreeHighest(BT,X).
+btreeHighest_test10(X) :- btreeEx10(BT), btreeHighest(BT,X).
+
+[query].
+
+check_solutions(btreeHighest_test01(X), []).
+check_solutions(btreeHighest_test02(X), [[X = 99]]).
+check_solutions(btreeHighest_test03(X), [[X = 9],[X = 999]]).
+check_solutions(btreeHighest_test04(X), [[X = 9],[X = 99],[X = 1000]]).
+check_solutions(btreeHighest_test05(X), [[X = 9],[X = 999],[X = 9],[X = 999]]).
+check_solutions(btreeHighest_test06(X), [[X = 0]]).
+check_solutions(btreeHighest_test07(X), [[X = 509]]).
+check_solutions(btreeHighest_test08(X), [[X = 609]]).
+check_solutions(btreeHighest_test09(X), [[X = 885]]).
+check_solutions(btreeHighest_test10(X), [[X = -75]]).

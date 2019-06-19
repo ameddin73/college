@@ -1,0 +1,196 @@
+CSCI-541/641 Programming Skills C++
+Practical Final Exam
+Saturday, May 5, 2018, 1-4pm @ ICL1&2
+
+A. GROUND RULES
+===============
+
+You have 3 hours to code solutions to the 7 problems described below and
+submit them through try.  All code must compile using GCC 7.3.0 and run on
+our CS machines using the C++17 standard.
+
+The only resources your are allowed to use is:
+
+1. http://en.cppreference.com/w/
+
+2. One Note Lecture Notes:
+- Online: https://mycourses.rit.edu/d2l/le/content/686283/viewContent/4936939/View
+- PDF: https://mycourses.rit.edu/d2l/le/content/686283/Home
+
+B. ENVIRONMENT
+==============
+
+On the CS Machines, ensure that your environment is set up correctly:
+
+$ env | grep PATH
+LD_LIBRARY_PATH=/usr/local/pub/swm/gcc-7.3.0/lib64:...
+PATH=/usr/local/pub/swm/gcc-7.3.0/bin:...
+$ g++ --version
+g++ (GCC) 7.3.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+C. STARTER CODE
+===============
+
+You are being provided with the starter code that allows compilation on
+either the CS Machines using g++, or using CLion on MacOS or Windows.
+
+Assuming your project directory is called Final, the directory structure
+should look like the following:
+
+Final/                  # project directory
+    CMakeLists.txt      # top level Cmake that adds the src/ subdir
+    doc/                # doxygen subdir
+        html/
+            index.html  # main doxygen documentation page
+    src/                # source code root directory
+        CMakeLists.txt  # CMake with targets for each of the problems
+        01-AAA/         # problem 1 subdir
+            header.mak  # CS machines header.mak
+            Makefile    # CS machines makefile
+            aaa.cpp     # source code to modify
+        ...             # repeated for all remaining problems
+
+- All code provided to you compiles "cleanly" (possibly there will be some
+warnings about unused variables that you will resolve with your
+implementation, for example).
+- Your code must compile and run on the CS machines and submit through try.
+- The CMake files supplied build targets for you, e.g. 01-AAA, etc.
+- For users on the CS Machines, you should compile in each of the problem
+subdirectories using 'make'.
+- You do not need to comment your code.
+
+D. PROBLEMS
+===========
+
+01-Sort (10%)
+-------------
+Change the insertion sort code from using a native array to an STL array<>.
+
+Restrictions:
+- There should be no native array/s remaining in the code.
+- Change the signature of the insertion_sort() method since you don't need to
+pass in the size separately.
+- You must use for_each to display the contents of the sorted data.
+
+Submission:
+    try grd-541cpp lab90-1 sort.cpp
+Verify:
+    try -q grd-541cpp lab90-1
+
+02-Memory (20%)
+---------------
+Convert a program from using raw pointers to smart pointers.
+
+Restrictions:
+- Not allowed to change the Thing class.
+- There should be no raw pointers in your code.
+- Likewise there should be no calls to delete.
+- There is a difference between whether a dynamically allocated object
+can be shared or not.  Make sure you use "stricter" form when possible.
+
+Note:
+- This program uses a random number generator with output when run on the
+CS machines.  Output on other machines will vary.
+- Run the program with valgrind and make sure there are no memory issues:
+
+$ valgrind memory 10 --leak-check=full
+
+Submission:
+    try grd-541cpp lab90-2 memory.cpp widget.h widget.cpp
+Verify:
+    try -q grd-541cpp lab90-2
+
+03-Lambda (10%)
+---------------
+Rewrite the transform() call so that it uses a lambda instead of a functor.
+
+Restrictions:
+- You are only allowed to change the transform call.
+- The cmp struct should not be used anymore and can be removed from the code.
+
+Note:
+- This program uses a random number generator with output when run on the
+CS machines.  Output on other machines will vary.
+
+Submission:
+    try grd-541cpp lab90-3 lambda.cpp
+Verify:
+    try -q grd-541cpp lab90-3
+
+04-BST (20%)
+------------
+Implement the move constructor and move assignment operations for a binary
+search tree, BST.
+
+Restrictions:
+- Do not modify the main program, bst.cpp.
+- You should only implement the move constructor and move assignment
+operations in bst.h for the BST class (not the inner Node class that
+comes first in the BST class definition).
+
+Notes:
+- Your output should be identical to the expected output, output.txt.
+- Run the program with valgrind and make sure there are no memory issues:
+
+$ valgrind bst --leak-check=full
+
+Submission:
+    try grd-541cpp lab90-4 bst.h
+Verify:
+    try -q grd-541cpp lab90-4
+
+05-Threads (15%)
+----------------
+Modify the threaded program to remove the race condition that happens when
+multiple threads perform a dot product computation on a matrix.
+
+Restrictions:
+- The only method you should be modifying is dot_product.
+- You are allowed to add global/s to solve this problem, but it must still
+use threads.
+
+Note:
+- Your solution should allow multiple threads to run the dot_product() method
+at the same time.  If you design it in a way that only one thread can run
+the entire function at a time, you will not get full credit.
+
+Submission:
+    try grd-541cpp lab90-5 threads.cpp
+Verify:
+    try -q grd-541cpp lab90-5
+
+06-FizzBuzz (10%)
+-----------------
+Modify the FizzBuzz class implementation so that it uses constructor delegation
+to re-direct all other constructors to the one with the most arguments.
+
+Restrictions:
+- You should only modify fizzbuzz.cpp.
+- The only method that should assign to the data members is the last
+constructor.
+
+Notes:
+- The correct output is in the main program.
+
+Submission:
+    try grd-541cpp lab90-6 fizzbuzz.cpp
+Verify:
+    try -q grd-541cpp lab90-6
+
+07-Accumulate (15%)
+------------------
+Modify the code so that instead of using loops, it uses std::accumulate to
+compute the result.
+
+Restrictions:
+- Your code cannot have any hard coded loops.
+- It must use accumulate to compute the result.
+- Do not change the vectors or the output statements.
+
+Submission:
+    try grd-541cpp lab90-7 accumulate.cpp
+Verify:
+    try -q grd-541cpp lab90-7

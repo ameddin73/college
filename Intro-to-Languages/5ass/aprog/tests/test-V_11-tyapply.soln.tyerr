@@ -1,0 +1,2 @@
+apply : (forall ('a 'b) (('a -> 'b) 'a -> 'b))
+type error: instantiated at type constructor `list', which is not a type

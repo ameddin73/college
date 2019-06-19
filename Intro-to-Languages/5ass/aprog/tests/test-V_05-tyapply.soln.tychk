@@ -1,0 +1,3 @@
+fst : (forall ('a 'b) ('a 'b -> 'a))
+fst@int&bool : (int bool -> int)
+0 : int

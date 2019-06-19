@@ -1,0 +1,2 @@
+5 : int
+type error: function of type (int int -> int) received arguments of types (int bool)
